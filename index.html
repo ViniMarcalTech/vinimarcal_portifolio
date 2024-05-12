@@ -1,0 +1,2344 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="utf-8">
+  <title>Portifólio Vinicius Marçal</title>
+  <base href="/vinimarcal_portifolio/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style type="text/css">
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+      unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+      unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+      unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+      unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');
+      unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');
+      unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
+  <style type="text/css">
+    @font-face {
+      font-family: 'Material Icons';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+    }
+
+    .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+  <style>
+    html {
+      --mat-ripple-color: rgba(0, 0, 0, .1)
+    }
+
+    html {
+      --mat-option-selected-state-label-text-color: #3f51b5;
+      --mat-option-label-text-color: rgba(0, 0, 0, .87);
+      --mat-option-hover-state-layer-color: rgba(0, 0, 0, .04);
+      --mat-option-focus-state-layer-color: rgba(0, 0, 0, .04);
+      --mat-option-selected-state-layer-color: rgba(0, 0, 0, .04)
+    }
+
+    html {
+      --mat-optgroup-label-text-color: rgba(0, 0, 0, .87)
+    }
+
+    html {
+      --mat-full-pseudo-checkbox-selected-icon-color: #ff4081;
+      --mat-full-pseudo-checkbox-selected-checkmark-color: #fafafa;
+      --mat-full-pseudo-checkbox-unselected-icon-color: rgba(0, 0, 0, .54);
+      --mat-full-pseudo-checkbox-disabled-selected-checkmark-color: #fafafa;
+      --mat-full-pseudo-checkbox-disabled-unselected-icon-color: #b0b0b0;
+      --mat-full-pseudo-checkbox-disabled-selected-icon-color: #b0b0b0;
+      --mat-minimal-pseudo-checkbox-selected-checkmark-color: #ff4081;
+      --mat-minimal-pseudo-checkbox-disabled-selected-checkmark-color: #b0b0b0
+    }
+
+    html {
+      --mat-app-background-color: #fafafa;
+      --mat-app-text-color: rgba(0, 0, 0, .87)
+    }
+
+    html {
+      --mat-option-label-text-font: Roboto, sans-serif;
+      --mat-option-label-text-line-height: 24px;
+      --mat-option-label-text-size: 16px;
+      --mat-option-label-text-tracking: .03125em;
+      --mat-option-label-text-weight: 400
+    }
+
+    html {
+      --mat-optgroup-label-text-font: Roboto, sans-serif;
+      --mat-optgroup-label-text-line-height: 24px;
+      --mat-optgroup-label-text-size: 16px;
+      --mat-optgroup-label-text-tracking: .03125em;
+      --mat-optgroup-label-text-weight: 400
+    }
+
+    html {
+      --mdc-elevated-card-container-shape: 4px;
+      --mdc-outlined-card-container-shape: 4px;
+      --mdc-outlined-card-outline-width: 1px
+    }
+
+    html {
+      --mdc-elevated-card-container-color: white;
+      --mdc-elevated-card-container-elevation: 0px 2px 1px -1px rgba(0, 0, 0, .2), 0px 1px 1px 0px rgba(0, 0, 0, .14), 0px 1px 3px 0px rgba(0, 0, 0, .12);
+      --mdc-outlined-card-container-color: white;
+      --mdc-outlined-card-outline-color: rgba(0, 0, 0, .12);
+      --mdc-outlined-card-container-elevation: 0px 0px 0px 0px rgba(0, 0, 0, .2), 0px 0px 0px 0px rgba(0, 0, 0, .14), 0px 0px 0px 0px rgba(0, 0, 0, .12);
+      --mat-card-subtitle-text-color: rgba(0, 0, 0, .54)
+    }
+
+    html {
+      --mat-card-title-text-font: Roboto, sans-serif;
+      --mat-card-title-text-line-height: 32px;
+      --mat-card-title-text-size: 20px;
+      --mat-card-title-text-tracking: .0125em;
+      --mat-card-title-text-weight: 500;
+      --mat-card-subtitle-text-font: Roboto, sans-serif;
+      --mat-card-subtitle-text-line-height: 22px;
+      --mat-card-subtitle-text-size: 14px;
+      --mat-card-subtitle-text-tracking: .0071428571em;
+      --mat-card-subtitle-text-weight: 500
+    }
+
+    html {
+      --mdc-linear-progress-active-indicator-height: 4px;
+      --mdc-linear-progress-track-height: 4px;
+      --mdc-linear-progress-track-shape: 0
+    }
+
+    html {
+      --mdc-plain-tooltip-container-shape: 4px;
+      --mdc-plain-tooltip-supporting-text-line-height: 16px
+    }
+
+    html {
+      --mdc-plain-tooltip-container-color: #616161;
+      --mdc-plain-tooltip-supporting-text-color: #fff
+    }
+
+    html {
+      --mdc-plain-tooltip-supporting-text-font: Roboto, sans-serif;
+      --mdc-plain-tooltip-supporting-text-size: 12px;
+      --mdc-plain-tooltip-supporting-text-weight: 400;
+      --mdc-plain-tooltip-supporting-text-tracking: .0333333333em
+    }
+
+    html {
+      --mdc-filled-text-field-active-indicator-height: 1px;
+      --mdc-filled-text-field-focus-active-indicator-height: 2px;
+      --mdc-filled-text-field-container-shape: 4px;
+      --mdc-outlined-text-field-outline-width: 1px;
+      --mdc-outlined-text-field-focus-outline-width: 2px;
+      --mdc-outlined-text-field-container-shape: 4px
+    }
+
+    html {
+      --mdc-filled-text-field-caret-color: #3f51b5;
+      --mdc-filled-text-field-focus-active-indicator-color: #3f51b5;
+      --mdc-filled-text-field-focus-label-text-color: rgba(63, 81, 181, .87);
+      --mdc-filled-text-field-container-color: whitesmoke;
+      --mdc-filled-text-field-disabled-container-color: #fafafa;
+      --mdc-filled-text-field-label-text-color: rgba(0, 0, 0, .6);
+      --mdc-filled-text-field-hover-label-text-color: rgba(0, 0, 0, .6);
+      --mdc-filled-text-field-disabled-label-text-color: rgba(0, 0, 0, .38);
+      --mdc-filled-text-field-input-text-color: rgba(0, 0, 0, .87);
+      --mdc-filled-text-field-disabled-input-text-color: rgba(0, 0, 0, .38);
+      --mdc-filled-text-field-input-text-placeholder-color: rgba(0, 0, 0, .6);
+      --mdc-filled-text-field-error-hover-label-text-color: #f44336;
+      --mdc-filled-text-field-error-focus-label-text-color: #f44336;
+      --mdc-filled-text-field-error-label-text-color: #f44336;
+      --mdc-filled-text-field-error-caret-color: #f44336;
+      --mdc-filled-text-field-active-indicator-color: rgba(0, 0, 0, .42);
+      --mdc-filled-text-field-disabled-active-indicator-color: rgba(0, 0, 0, .06);
+      --mdc-filled-text-field-hover-active-indicator-color: rgba(0, 0, 0, .87);
+      --mdc-filled-text-field-error-active-indicator-color: #f44336;
+      --mdc-filled-text-field-error-focus-active-indicator-color: #f44336;
+      --mdc-filled-text-field-error-hover-active-indicator-color: #f44336;
+      --mdc-outlined-text-field-caret-color: #3f51b5;
+      --mdc-outlined-text-field-focus-outline-color: #3f51b5;
+      --mdc-outlined-text-field-focus-label-text-color: rgba(63, 81, 181, .87);
+      --mdc-outlined-text-field-label-text-color: rgba(0, 0, 0, .6);
+      --mdc-outlined-text-field-hover-label-text-color: rgba(0, 0, 0, .6);
+      --mdc-outlined-text-field-disabled-label-text-color: rgba(0, 0, 0, .38);
+      --mdc-outlined-text-field-input-text-color: rgba(0, 0, 0, .87);
+      --mdc-outlined-text-field-disabled-input-text-color: rgba(0, 0, 0, .38);
+      --mdc-outlined-text-field-input-text-placeholder-color: rgba(0, 0, 0, .6);
+      --mdc-outlined-text-field-error-caret-color: #f44336;
+      --mdc-outlined-text-field-error-focus-label-text-color: #f44336;
+      --mdc-outlined-text-field-error-label-text-color: #f44336;
+      --mdc-outlined-text-field-error-hover-label-text-color: #f44336;
+      --mdc-outlined-text-field-outline-color: rgba(0, 0, 0, .38);
+      --mdc-outlined-text-field-disabled-outline-color: rgba(0, 0, 0, .06);
+      --mdc-outlined-text-field-hover-outline-color: rgba(0, 0, 0, .87);
+      --mdc-outlined-text-field-error-focus-outline-color: #f44336;
+      --mdc-outlined-text-field-error-hover-outline-color: #f44336;
+      --mdc-outlined-text-field-error-outline-color: #f44336;
+      --mat-form-field-focus-select-arrow-color: rgba(63, 81, 181, .87);
+      --mat-form-field-disabled-input-text-placeholder-color: rgba(0, 0, 0, .38);
+      --mat-form-field-state-layer-color: rgba(0, 0, 0, .87);
+      --mat-form-field-error-text-color: #f44336;
+      --mat-form-field-select-option-text-color: inherit;
+      --mat-form-field-select-disabled-option-text-color: GrayText;
+      --mat-form-field-leading-icon-color: unset;
+      --mat-form-field-disabled-leading-icon-color: unset;
+      --mat-form-field-trailing-icon-color: unset;
+      --mat-form-field-disabled-trailing-icon-color: unset;
+      --mat-form-field-error-focus-trailing-icon-color: unset;
+      --mat-form-field-error-hover-trailing-icon-color: unset;
+      --mat-form-field-error-trailing-icon-color: unset;
+      --mat-form-field-enabled-select-arrow-color: rgba(0, 0, 0, .54);
+      --mat-form-field-disabled-select-arrow-color: rgba(0, 0, 0, .38);
+      --mat-form-field-hover-state-layer-opacity: .04;
+      --mat-form-field-focus-state-layer-opacity: .08
+    }
+
+    html {
+      --mat-form-field-container-height: 56px;
+      --mat-form-field-filled-label-display: block;
+      --mat-form-field-container-vertical-padding: 16px;
+      --mat-form-field-filled-with-label-container-padding-top: 24px;
+      --mat-form-field-filled-with-label-container-padding-bottom: 8px
+    }
+
+    html {
+      --mdc-filled-text-field-label-text-font: Roboto, sans-serif;
+      --mdc-filled-text-field-label-text-size: 16px;
+      --mdc-filled-text-field-label-text-tracking: .03125em;
+      --mdc-filled-text-field-label-text-weight: 400;
+      --mdc-outlined-text-field-label-text-font: Roboto, sans-serif;
+      --mdc-outlined-text-field-label-text-size: 16px;
+      --mdc-outlined-text-field-label-text-tracking: .03125em;
+      --mdc-outlined-text-field-label-text-weight: 400;
+      --mat-form-field-container-text-font: Roboto, sans-serif;
+      --mat-form-field-container-text-line-height: 24px;
+      --mat-form-field-container-text-size: 16px;
+      --mat-form-field-container-text-tracking: .03125em;
+      --mat-form-field-container-text-weight: 400;
+      --mat-form-field-outlined-label-text-populated-size: 16px;
+      --mat-form-field-subscript-text-font: Roboto, sans-serif;
+      --mat-form-field-subscript-text-line-height: 20px;
+      --mat-form-field-subscript-text-size: 12px;
+      --mat-form-field-subscript-text-tracking: .0333333333em;
+      --mat-form-field-subscript-text-weight: 400
+    }
+
+    html {
+      --mat-select-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .2), 0px 8px 10px 1px rgba(0, 0, 0, .14), 0px 3px 14px 2px rgba(0, 0, 0, .12)
+    }
+
+    html {
+      --mat-select-panel-background-color: white;
+      --mat-select-enabled-trigger-text-color: rgba(0, 0, 0, .87);
+      --mat-select-disabled-trigger-text-color: rgba(0, 0, 0, .38);
+      --mat-select-placeholder-text-color: rgba(0, 0, 0, .6);
+      --mat-select-enabled-arrow-color: rgba(0, 0, 0, .54);
+      --mat-select-disabled-arrow-color: rgba(0, 0, 0, .38);
+      --mat-select-focused-arrow-color: rgba(63, 81, 181, .87);
+      --mat-select-invalid-arrow-color: rgba(244, 67, 54, .87)
+    }
+
+    html {
+      --mat-select-arrow-transform: translateY(-8px)
+    }
+
+    html {
+      --mat-select-trigger-text-font: Roboto, sans-serif;
+      --mat-select-trigger-text-line-height: 24px;
+      --mat-select-trigger-text-size: 16px;
+      --mat-select-trigger-text-tracking: .03125em;
+      --mat-select-trigger-text-weight: 400
+    }
+
+    html {
+      --mat-autocomplete-container-shape: 4px;
+      --mat-autocomplete-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .2), 0px 8px 10px 1px rgba(0, 0, 0, .14), 0px 3px 14px 2px rgba(0, 0, 0, .12)
+    }
+
+    html {
+      --mat-autocomplete-background-color: white
+    }
+
+    html {
+      --mdc-dialog-container-elevation-shadow: 0px 11px 15px -7px rgba(0, 0, 0, .2), 0px 24px 38px 3px rgba(0, 0, 0, .14), 0px 9px 46px 8px rgba(0, 0, 0, .12);
+      --mdc-dialog-container-shadow-color: #000;
+      --mdc-dialog-container-shape: 4px;
+      --mat-dialog-container-max-width: 80vw;
+      --mat-dialog-container-small-max-width: 80vw;
+      --mat-dialog-container-min-width: 0;
+      --mat-dialog-actions-alignment: start;
+      --mat-dialog-actions-padding: 8px;
+      --mat-dialog-content-padding: 20px 24px;
+      --mat-dialog-with-actions-content-padding: 20px 24px;
+      --mat-dialog-headline-padding: 0 24px 9px
+    }
+
+    html {
+      --mdc-dialog-container-color: white;
+      --mdc-dialog-subhead-color: rgba(0, 0, 0, .87);
+      --mdc-dialog-supporting-text-color: rgba(0, 0, 0, .6)
+    }
+
+    html {
+      --mdc-dialog-subhead-font: Roboto, sans-serif;
+      --mdc-dialog-subhead-line-height: 32px;
+      --mdc-dialog-subhead-size: 20px;
+      --mdc-dialog-subhead-weight: 500;
+      --mdc-dialog-subhead-tracking: .0125em;
+      --mdc-dialog-supporting-text-font: Roboto, sans-serif;
+      --mdc-dialog-supporting-text-line-height: 24px;
+      --mdc-dialog-supporting-text-size: 16px;
+      --mdc-dialog-supporting-text-weight: 400;
+      --mdc-dialog-supporting-text-tracking: .03125em
+    }
+
+    html {
+      --mdc-switch-disabled-selected-icon-opacity: .38;
+      --mdc-switch-disabled-track-opacity: .12;
+      --mdc-switch-disabled-unselected-icon-opacity: .38;
+      --mdc-switch-handle-height: 20px;
+      --mdc-switch-handle-shape: 10px;
+      --mdc-switch-handle-width: 20px;
+      --mdc-switch-selected-icon-size: 18px;
+      --mdc-switch-track-height: 14px;
+      --mdc-switch-track-shape: 7px;
+      --mdc-switch-track-width: 36px;
+      --mdc-switch-unselected-icon-size: 18px;
+      --mdc-switch-selected-focus-state-layer-opacity: .12;
+      --mdc-switch-selected-hover-state-layer-opacity: .04;
+      --mdc-switch-selected-pressed-state-layer-opacity: .1;
+      --mdc-switch-unselected-focus-state-layer-opacity: .12;
+      --mdc-switch-unselected-hover-state-layer-opacity: .04;
+      --mdc-switch-unselected-pressed-state-layer-opacity: .1;
+      --mat-switch-disabled-selected-handle-opacity: .38;
+      --mat-switch-disabled-unselected-handle-opacity: .38;
+      --mat-switch-unselected-handle-size: 20px;
+      --mat-switch-selected-handle-size: 20px;
+      --mat-switch-pressed-handle-size: 20px;
+      --mat-switch-with-icon-handle-size: 20px;
+      --mat-switch-selected-handle-horizontal-margin: 0;
+      --mat-switch-selected-with-icon-handle-horizontal-margin: 0;
+      --mat-switch-selected-pressed-handle-horizontal-margin: 0;
+      --mat-switch-unselected-handle-horizontal-margin: 0;
+      --mat-switch-unselected-with-icon-handle-horizontal-margin: 0;
+      --mat-switch-unselected-pressed-handle-horizontal-margin: 0;
+      --mat-switch-visible-track-opacity: 1;
+      --mat-switch-hidden-track-opacity: 1;
+      --mat-switch-visible-track-transition: transform 75ms 0ms cubic-bezier(0, 0, .2, 1);
+      --mat-switch-hidden-track-transition: transform 75ms 0ms cubic-bezier(.4, 0, .6, 1);
+      --mat-switch-track-outline-width: 1px;
+      --mat-switch-track-outline-color: transparent;
+      --mat-switch-selected-track-outline-width: 1px;
+      --mat-switch-disabled-unselected-track-outline-width: 1px;
+      --mat-switch-disabled-unselected-track-outline-color: transparent
+    }
+
+    html {
+      --mdc-switch-selected-focus-state-layer-color: #3949ab;
+      --mdc-switch-selected-handle-color: #3949ab;
+      --mdc-switch-selected-hover-state-layer-color: #3949ab;
+      --mdc-switch-selected-pressed-state-layer-color: #3949ab;
+      --mdc-switch-selected-focus-handle-color: #1a237e;
+      --mdc-switch-selected-hover-handle-color: #1a237e;
+      --mdc-switch-selected-pressed-handle-color: #1a237e;
+      --mdc-switch-selected-focus-track-color: #7986cb;
+      --mdc-switch-selected-hover-track-color: #7986cb;
+      --mdc-switch-selected-pressed-track-color: #7986cb;
+      --mdc-switch-selected-track-color: #7986cb;
+      --mdc-switch-disabled-selected-handle-color: #424242;
+      --mdc-switch-disabled-selected-icon-color: #fff;
+      --mdc-switch-disabled-selected-track-color: #424242;
+      --mdc-switch-disabled-unselected-handle-color: #424242;
+      --mdc-switch-disabled-unselected-icon-color: #fff;
+      --mdc-switch-disabled-unselected-track-color: #424242;
+      --mdc-switch-handle-surface-color: var(--mdc-theme-surface, #fff);
+      --mdc-switch-handle-elevation-shadow: 0px 2px 1px -1px rgba(0, 0, 0, .2), 0px 1px 1px 0px rgba(0, 0, 0, .14), 0px 1px 3px 0px rgba(0, 0, 0, .12);
+      --mdc-switch-handle-shadow-color: black;
+      --mdc-switch-disabled-handle-elevation-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .2), 0px 0px 0px 0px rgba(0, 0, 0, .14), 0px 0px 0px 0px rgba(0, 0, 0, .12);
+      --mdc-switch-selected-icon-color: #fff;
+      --mdc-switch-unselected-focus-handle-color: #212121;
+      --mdc-switch-unselected-focus-state-layer-color: #424242;
+      --mdc-switch-unselected-focus-track-color: #e0e0e0;
+      --mdc-switch-unselected-handle-color: #616161;
+      --mdc-switch-unselected-hover-handle-color: #212121;
+      --mdc-switch-unselected-hover-state-layer-color: #424242;
+      --mdc-switch-unselected-hover-track-color: #e0e0e0;
+      --mdc-switch-unselected-icon-color: #fff;
+      --mdc-switch-unselected-pressed-handle-color: #212121;
+      --mdc-switch-unselected-pressed-state-layer-color: #424242;
+      --mdc-switch-unselected-pressed-track-color: #e0e0e0;
+      --mdc-switch-unselected-track-color: #e0e0e0;
+      --mdc-switch-disabled-label-text-color: rgba(0, 0, 0, .38)
+    }
+
+    html {
+      --mdc-switch-state-layer-size: 40px
+    }
+
+    html {
+      --mdc-radio-disabled-selected-icon-opacity: .38;
+      --mdc-radio-disabled-unselected-icon-opacity: .38;
+      --mdc-radio-state-layer-size: 40px
+    }
+
+    html {
+      --mdc-radio-state-layer-size: 40px;
+      --mat-radio-touch-target-display: block
+    }
+
+    html {
+      --mat-slider-value-indicator-width: auto;
+      --mat-slider-value-indicator-height: 32px;
+      --mat-slider-value-indicator-caret-display: block;
+      --mat-slider-value-indicator-border-radius: 4px;
+      --mat-slider-value-indicator-padding: 0 12px;
+      --mat-slider-value-indicator-text-transform: none;
+      --mat-slider-value-indicator-container-transform: translateX(-50%);
+      --mdc-slider-active-track-height: 6px;
+      --mdc-slider-active-track-shape: 9999px;
+      --mdc-slider-handle-height: 20px;
+      --mdc-slider-handle-shape: 50%;
+      --mdc-slider-handle-width: 20px;
+      --mdc-slider-inactive-track-height: 4px;
+      --mdc-slider-inactive-track-shape: 9999px;
+      --mdc-slider-with-overlap-handle-outline-width: 1px;
+      --mdc-slider-with-tick-marks-active-container-opacity: .6;
+      --mdc-slider-with-tick-marks-container-shape: 50%;
+      --mdc-slider-with-tick-marks-container-size: 2px;
+      --mdc-slider-with-tick-marks-inactive-container-opacity: .6
+    }
+
+    html {
+      --mdc-slider-handle-color: #3f51b5;
+      --mdc-slider-focus-handle-color: #3f51b5;
+      --mdc-slider-hover-handle-color: #3f51b5;
+      --mdc-slider-active-track-color: #3f51b5;
+      --mdc-slider-inactive-track-color: #3f51b5;
+      --mdc-slider-with-tick-marks-inactive-container-color: #3f51b5;
+      --mdc-slider-with-tick-marks-active-container-color: white;
+      --mdc-slider-disabled-active-track-color: #000;
+      --mdc-slider-disabled-handle-color: #000;
+      --mdc-slider-disabled-inactive-track-color: #000;
+      --mdc-slider-label-container-color: #000;
+      --mdc-slider-label-label-text-color: #fff;
+      --mdc-slider-with-overlap-handle-outline-color: #fff;
+      --mdc-slider-with-tick-marks-disabled-container-color: #000;
+      --mdc-slider-handle-elevation: 0px 2px 1px -1px rgba(0, 0, 0, .2), 0px 1px 1px 0px rgba(0, 0, 0, .14), 0px 1px 3px 0px rgba(0, 0, 0, .12);
+      --mat-slider-ripple-color: #3f51b5;
+      --mat-slider-hover-state-layer-color: rgba(63, 81, 181, .05);
+      --mat-slider-focus-state-layer-color: rgba(63, 81, 181, .2);
+      --mat-slider-value-indicator-opacity: .6
+    }
+
+    html {
+      --mdc-slider-label-label-text-font: Roboto, sans-serif;
+      --mdc-slider-label-label-text-size: 14px;
+      --mdc-slider-label-label-text-line-height: 22px;
+      --mdc-slider-label-label-text-tracking: .0071428571em;
+      --mdc-slider-label-label-text-weight: 500
+    }
+
+    html {
+      --mat-menu-container-shape: 4px;
+      --mat-menu-divider-bottom-spacing: 0;
+      --mat-menu-divider-top-spacing: 0;
+      --mat-menu-item-spacing: 16px;
+      --mat-menu-item-icon-size: 24px;
+      --mat-menu-item-leading-spacing: 16px;
+      --mat-menu-item-trailing-spacing: 16px;
+      --mat-menu-item-with-icon-leading-spacing: 16px;
+      --mat-menu-item-with-icon-trailing-spacing: 16px
+    }
+
+    html {
+      --mat-menu-item-label-text-color: rgba(0, 0, 0, .87);
+      --mat-menu-item-icon-color: rgba(0, 0, 0, .87);
+      --mat-menu-item-hover-state-layer-color: rgba(0, 0, 0, .04);
+      --mat-menu-item-focus-state-layer-color: rgba(0, 0, 0, .04);
+      --mat-menu-container-color: white;
+      --mat-menu-divider-color: rgba(0, 0, 0, .12)
+    }
+
+    html {
+      --mat-menu-item-label-text-font: Roboto, sans-serif;
+      --mat-menu-item-label-text-size: 16px;
+      --mat-menu-item-label-text-tracking: .03125em;
+      --mat-menu-item-label-text-line-height: 24px;
+      --mat-menu-item-label-text-weight: 400
+    }
+
+    html {
+      --mdc-list-list-item-container-shape: 0;
+      --mdc-list-list-item-leading-avatar-shape: 50%;
+      --mdc-list-list-item-container-color: transparent;
+      --mdc-list-list-item-selected-container-color: transparent;
+      --mdc-list-list-item-leading-avatar-color: transparent;
+      --mdc-list-list-item-leading-icon-size: 24px;
+      --mdc-list-list-item-leading-avatar-size: 40px;
+      --mdc-list-list-item-trailing-icon-size: 24px;
+      --mdc-list-list-item-disabled-state-layer-color: transparent;
+      --mdc-list-list-item-disabled-state-layer-opacity: 0;
+      --mdc-list-list-item-disabled-label-text-opacity: .38;
+      --mdc-list-list-item-disabled-leading-icon-opacity: .38;
+      --mdc-list-list-item-disabled-trailing-icon-opacity: .38;
+      --mat-list-active-indicator-color: transparent;
+      --mat-list-active-indicator-shape: 4px
+    }
+
+    html {
+      --mdc-list-list-item-label-text-color: rgba(0, 0, 0, .87);
+      --mdc-list-list-item-supporting-text-color: rgba(0, 0, 0, .54);
+      --mdc-list-list-item-leading-icon-color: rgba(0, 0, 0, .38);
+      --mdc-list-list-item-trailing-supporting-text-color: rgba(0, 0, 0, .38);
+      --mdc-list-list-item-trailing-icon-color: rgba(0, 0, 0, .38);
+      --mdc-list-list-item-selected-trailing-icon-color: rgba(0, 0, 0, .38);
+      --mdc-list-list-item-disabled-label-text-color: black;
+      --mdc-list-list-item-disabled-leading-icon-color: black;
+      --mdc-list-list-item-disabled-trailing-icon-color: black;
+      --mdc-list-list-item-hover-label-text-color: rgba(0, 0, 0, .87);
+      --mdc-list-list-item-hover-leading-icon-color: rgba(0, 0, 0, .38);
+      --mdc-list-list-item-hover-trailing-icon-color: rgba(0, 0, 0, .38);
+      --mdc-list-list-item-focus-label-text-color: rgba(0, 0, 0, .87);
+      --mdc-list-list-item-hover-state-layer-color: black;
+      --mdc-list-list-item-hover-state-layer-opacity: .04;
+      --mdc-list-list-item-focus-state-layer-color: black;
+      --mdc-list-list-item-focus-state-layer-opacity: .12
+    }
+
+    html {
+      --mdc-list-list-item-one-line-container-height: 48px;
+      --mdc-list-list-item-two-line-container-height: 64px;
+      --mdc-list-list-item-three-line-container-height: 88px;
+      --mat-list-list-item-leading-icon-start-space: 16px;
+      --mat-list-list-item-leading-icon-end-space: 32px
+    }
+
+    html {
+      --mdc-list-list-item-label-text-font: Roboto, sans-serif;
+      --mdc-list-list-item-label-text-line-height: 24px;
+      --mdc-list-list-item-label-text-size: 16px;
+      --mdc-list-list-item-label-text-tracking: .03125em;
+      --mdc-list-list-item-label-text-weight: 400;
+      --mdc-list-list-item-supporting-text-font: Roboto, sans-serif;
+      --mdc-list-list-item-supporting-text-line-height: 20px;
+      --mdc-list-list-item-supporting-text-size: 14px;
+      --mdc-list-list-item-supporting-text-tracking: .0178571429em;
+      --mdc-list-list-item-supporting-text-weight: 400;
+      --mdc-list-list-item-trailing-supporting-text-font: Roboto, sans-serif;
+      --mdc-list-list-item-trailing-supporting-text-line-height: 20px;
+      --mdc-list-list-item-trailing-supporting-text-size: 12px;
+      --mdc-list-list-item-trailing-supporting-text-tracking: .0333333333em;
+      --mdc-list-list-item-trailing-supporting-text-weight: 400
+    }
+
+    html {
+      --mat-paginator-container-text-color: rgba(0, 0, 0, .87);
+      --mat-paginator-container-background-color: white;
+      --mat-paginator-enabled-icon-color: rgba(0, 0, 0, .54);
+      --mat-paginator-disabled-icon-color: rgba(0, 0, 0, .12)
+    }
+
+    html {
+      --mat-paginator-container-size: 56px;
+      --mat-paginator-form-field-container-height: 40px;
+      --mat-paginator-form-field-container-vertical-padding: 8px
+    }
+
+    html {
+      --mat-paginator-container-text-font: Roboto, sans-serif;
+      --mat-paginator-container-text-line-height: 20px;
+      --mat-paginator-container-text-size: 12px;
+      --mat-paginator-container-text-tracking: .0333333333em;
+      --mat-paginator-container-text-weight: 400;
+      --mat-paginator-select-trigger-text-size: 12px
+    }
+
+    html {
+      --mdc-tab-indicator-active-indicator-height: 2px;
+      --mdc-tab-indicator-active-indicator-shape: 0;
+      --mdc-secondary-navigation-tab-container-height: 48px;
+      --mat-tab-header-divider-color: transparent;
+      --mat-tab-header-divider-height: 0
+    }
+
+    html {
+      --mdc-checkbox-disabled-selected-checkmark-color: #fff;
+      --mdc-checkbox-selected-focus-state-layer-opacity: .16;
+      --mdc-checkbox-selected-hover-state-layer-opacity: .04;
+      --mdc-checkbox-selected-pressed-state-layer-opacity: .16;
+      --mdc-checkbox-unselected-focus-state-layer-opacity: .16;
+      --mdc-checkbox-unselected-hover-state-layer-opacity: .04;
+      --mdc-checkbox-unselected-pressed-state-layer-opacity: .16
+    }
+
+    html {
+      --mdc-checkbox-disabled-selected-icon-color: rgba(0, 0, 0, .38);
+      --mdc-checkbox-disabled-unselected-icon-color: rgba(0, 0, 0, .38);
+      --mdc-checkbox-selected-checkmark-color: white;
+      --mdc-checkbox-selected-focus-icon-color: #ff4081;
+      --mdc-checkbox-selected-hover-icon-color: #ff4081;
+      --mdc-checkbox-selected-icon-color: #ff4081;
+      --mdc-checkbox-selected-pressed-icon-color: #ff4081;
+      --mdc-checkbox-unselected-focus-icon-color: #212121;
+      --mdc-checkbox-unselected-hover-icon-color: #212121;
+      --mdc-checkbox-unselected-icon-color: rgba(0, 0, 0, .54);
+      --mdc-checkbox-unselected-pressed-icon-color: rgba(0, 0, 0, .54);
+      --mdc-checkbox-selected-focus-state-layer-color: #ff4081;
+      --mdc-checkbox-selected-hover-state-layer-color: #ff4081;
+      --mdc-checkbox-selected-pressed-state-layer-color: #ff4081;
+      --mdc-checkbox-unselected-focus-state-layer-color: black;
+      --mdc-checkbox-unselected-hover-state-layer-color: black;
+      --mdc-checkbox-unselected-pressed-state-layer-color: black;
+      --mat-checkbox-disabled-label-color: rgba(0, 0, 0, .38)
+    }
+
+    html {
+      --mdc-checkbox-state-layer-size: 40px;
+      --mat-checkbox-touch-target-display: block
+    }
+
+    html {
+      --mdc-text-button-container-shape: 4px;
+      --mdc-text-button-keep-touch-target: false;
+      --mdc-filled-button-container-shape: 4px;
+      --mdc-filled-button-keep-touch-target: false;
+      --mdc-protected-button-container-shape: 4px;
+      --mdc-protected-button-keep-touch-target: false;
+      --mdc-outlined-button-keep-touch-target: false;
+      --mdc-outlined-button-outline-width: 1px;
+      --mdc-outlined-button-container-shape: 4px;
+      --mat-text-button-horizontal-padding: 8px;
+      --mat-text-button-with-icon-horizontal-padding: 8px;
+      --mat-text-button-icon-spacing: 8px;
+      --mat-text-button-icon-offset: 0;
+      --mat-filled-button-horizontal-padding: 16px;
+      --mat-filled-button-icon-spacing: 8px;
+      --mat-filled-button-icon-offset: -4px;
+      --mat-protected-button-horizontal-padding: 16px;
+      --mat-protected-button-icon-spacing: 8px;
+      --mat-protected-button-icon-offset: -4px;
+      --mat-outlined-button-horizontal-padding: 15px;
+      --mat-outlined-button-icon-spacing: 8px;
+      --mat-outlined-button-icon-offset: -4px
+    }
+
+    html {
+      --mdc-text-button-label-text-color: black;
+      --mdc-text-button-disabled-label-text-color: rgba(0, 0, 0, .38);
+      --mat-text-button-state-layer-color: black;
+      --mat-text-button-disabled-state-layer-color: black;
+      --mat-text-button-ripple-color: rgba(0, 0, 0, .1);
+      --mat-text-button-hover-state-layer-opacity: .04;
+      --mat-text-button-focus-state-layer-opacity: .12;
+      --mat-text-button-pressed-state-layer-opacity: .12;
+      --mdc-filled-button-container-color: white;
+      --mdc-filled-button-label-text-color: black;
+      --mdc-filled-button-disabled-container-color: rgba(0, 0, 0, .12);
+      --mdc-filled-button-disabled-label-text-color: rgba(0, 0, 0, .38);
+      --mat-filled-button-state-layer-color: black;
+      --mat-filled-button-disabled-state-layer-color: black;
+      --mat-filled-button-ripple-color: rgba(0, 0, 0, .1);
+      --mat-filled-button-hover-state-layer-opacity: .04;
+      --mat-filled-button-focus-state-layer-opacity: .12;
+      --mat-filled-button-pressed-state-layer-opacity: .12;
+      --mdc-protected-button-container-color: white;
+      --mdc-protected-button-label-text-color: black;
+      --mdc-protected-button-disabled-container-color: rgba(0, 0, 0, .12);
+      --mdc-protected-button-disabled-label-text-color: rgba(0, 0, 0, .38);
+      --mdc-protected-button-container-elevation-shadow: 0px 3px 1px -2px rgba(0, 0, 0, .2), 0px 2px 2px 0px rgba(0, 0, 0, .14), 0px 1px 5px 0px rgba(0, 0, 0, .12);
+      --mdc-protected-button-disabled-container-elevation-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .2), 0px 0px 0px 0px rgba(0, 0, 0, .14), 0px 0px 0px 0px rgba(0, 0, 0, .12);
+      --mdc-protected-button-focus-container-elevation-shadow: 0px 2px 4px -1px rgba(0, 0, 0, .2), 0px 4px 5px 0px rgba(0, 0, 0, .14), 0px 1px 10px 0px rgba(0, 0, 0, .12);
+      --mdc-protected-button-hover-container-elevation-shadow: 0px 2px 4px -1px rgba(0, 0, 0, .2), 0px 4px 5px 0px rgba(0, 0, 0, .14), 0px 1px 10px 0px rgba(0, 0, 0, .12);
+      --mdc-protected-button-pressed-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .2), 0px 8px 10px 1px rgba(0, 0, 0, .14), 0px 3px 14px 2px rgba(0, 0, 0, .12);
+      --mdc-protected-button-container-shadow-color: #000;
+      --mat-protected-button-state-layer-color: black;
+      --mat-protected-button-disabled-state-layer-color: black;
+      --mat-protected-button-ripple-color: rgba(0, 0, 0, .1);
+      --mat-protected-button-hover-state-layer-opacity: .04;
+      --mat-protected-button-focus-state-layer-opacity: .12;
+      --mat-protected-button-pressed-state-layer-opacity: .12;
+      --mdc-outlined-button-disabled-outline-color: rgba(0, 0, 0, .12);
+      --mdc-outlined-button-disabled-label-text-color: rgba(0, 0, 0, .38);
+      --mdc-outlined-button-label-text-color: black;
+      --mdc-outlined-button-outline-color: rgba(0, 0, 0, .12);
+      --mat-outlined-button-state-layer-color: black;
+      --mat-outlined-button-disabled-state-layer-color: black;
+      --mat-outlined-button-ripple-color: rgba(0, 0, 0, .1);
+      --mat-outlined-button-hover-state-layer-opacity: .04;
+      --mat-outlined-button-focus-state-layer-opacity: .12;
+      --mat-outlined-button-pressed-state-layer-opacity: .12
+    }
+
+    html {
+      --mdc-text-button-container-height: 36px;
+      --mdc-filled-button-container-height: 36px;
+      --mdc-outlined-button-container-height: 36px;
+      --mdc-protected-button-container-height: 36px;
+      --mat-text-button-touch-target-display: block;
+      --mat-filled-button-touch-target-display: block;
+      --mat-protected-button-touch-target-display: block;
+      --mat-outlined-button-touch-target-display: block
+    }
+
+    html {
+      --mdc-text-button-label-text-font: Roboto, sans-serif;
+      --mdc-text-button-label-text-size: 14px;
+      --mdc-text-button-label-text-tracking: .0892857143em;
+      --mdc-text-button-label-text-weight: 500;
+      --mdc-text-button-label-text-transform: none;
+      --mdc-filled-button-label-text-font: Roboto, sans-serif;
+      --mdc-filled-button-label-text-size: 14px;
+      --mdc-filled-button-label-text-tracking: .0892857143em;
+      --mdc-filled-button-label-text-weight: 500;
+      --mdc-filled-button-label-text-transform: none;
+      --mdc-outlined-button-label-text-font: Roboto, sans-serif;
+      --mdc-outlined-button-label-text-size: 14px;
+      --mdc-outlined-button-label-text-tracking: .0892857143em;
+      --mdc-outlined-button-label-text-weight: 500;
+      --mdc-outlined-button-label-text-transform: none;
+      --mdc-protected-button-label-text-font: Roboto, sans-serif;
+      --mdc-protected-button-label-text-size: 14px;
+      --mdc-protected-button-label-text-tracking: .0892857143em;
+      --mdc-protected-button-label-text-weight: 500;
+      --mdc-protected-button-label-text-transform: none
+    }
+
+    html {
+      --mdc-icon-button-icon-size: 24px
+    }
+
+    html {
+      --mdc-icon-button-icon-color: inherit;
+      --mdc-icon-button-disabled-icon-color: rgba(0, 0, 0, .38);
+      --mat-icon-button-state-layer-color: black;
+      --mat-icon-button-disabled-state-layer-color: black;
+      --mat-icon-button-ripple-color: rgba(0, 0, 0, .1);
+      --mat-icon-button-hover-state-layer-opacity: .04;
+      --mat-icon-button-focus-state-layer-opacity: .12;
+      --mat-icon-button-pressed-state-layer-opacity: .12
+    }
+
+    html {
+      --mat-icon-button-touch-target-display: block
+    }
+
+    html {
+      --mdc-fab-container-shape: 50%;
+      --mdc-fab-icon-size: 24px;
+      --mdc-fab-small-container-shape: 50%;
+      --mdc-fab-small-icon-size: 24px;
+      --mdc-extended-fab-container-height: 48px;
+      --mdc-extended-fab-container-shape: 24px
+    }
+
+    html {
+      --mdc-fab-container-color: white;
+      --mdc-fab-container-elevation-shadow: 0px 3px 5px -1px rgba(0, 0, 0, .2), 0px 6px 10px 0px rgba(0, 0, 0, .14), 0px 1px 18px 0px rgba(0, 0, 0, .12);
+      --mdc-fab-focus-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .2), 0px 8px 10px 1px rgba(0, 0, 0, .14), 0px 3px 14px 2px rgba(0, 0, 0, .12);
+      --mdc-fab-hover-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .2), 0px 8px 10px 1px rgba(0, 0, 0, .14), 0px 3px 14px 2px rgba(0, 0, 0, .12);
+      --mdc-fab-pressed-container-elevation-shadow: 0px 7px 8px -4px rgba(0, 0, 0, .2), 0px 12px 17px 2px rgba(0, 0, 0, .14), 0px 5px 22px 4px rgba(0, 0, 0, .12);
+      --mdc-fab-container-shadow-color: #000;
+      --mat-fab-foreground-color: black;
+      --mat-fab-state-layer-color: black;
+      --mat-fab-disabled-state-layer-color: black;
+      --mat-fab-ripple-color: rgba(0, 0, 0, .1);
+      --mat-fab-hover-state-layer-opacity: .04;
+      --mat-fab-focus-state-layer-opacity: .12;
+      --mat-fab-pressed-state-layer-opacity: .12;
+      --mat-fab-disabled-state-container-color: rgba(0, 0, 0, .12);
+      --mat-fab-disabled-state-foreground-color: rgba(0, 0, 0, .38);
+      --mdc-fab-small-container-color: white;
+      --mdc-fab-small-container-elevation-shadow: 0px 3px 5px -1px rgba(0, 0, 0, .2), 0px 6px 10px 0px rgba(0, 0, 0, .14), 0px 1px 18px 0px rgba(0, 0, 0, .12);
+      --mdc-fab-small-focus-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .2), 0px 8px 10px 1px rgba(0, 0, 0, .14), 0px 3px 14px 2px rgba(0, 0, 0, .12);
+      --mdc-fab-small-hover-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .2), 0px 8px 10px 1px rgba(0, 0, 0, .14), 0px 3px 14px 2px rgba(0, 0, 0, .12);
+      --mdc-fab-small-pressed-container-elevation-shadow: 0px 7px 8px -4px rgba(0, 0, 0, .2), 0px 12px 17px 2px rgba(0, 0, 0, .14), 0px 5px 22px 4px rgba(0, 0, 0, .12);
+      --mdc-fab-small-container-shadow-color: #000;
+      --mat-fab-small-foreground-color: black;
+      --mat-fab-small-state-layer-color: black;
+      --mat-fab-small-disabled-state-layer-color: black;
+      --mat-fab-small-ripple-color: rgba(0, 0, 0, .1);
+      --mat-fab-small-hover-state-layer-opacity: .04;
+      --mat-fab-small-focus-state-layer-opacity: .12;
+      --mat-fab-small-pressed-state-layer-opacity: .12;
+      --mat-fab-small-disabled-state-container-color: rgba(0, 0, 0, .12);
+      --mat-fab-small-disabled-state-foreground-color: rgba(0, 0, 0, .38);
+      --mdc-extended-fab-container-elevation-shadow: 0px 3px 5px -1px rgba(0, 0, 0, .2), 0px 6px 10px 0px rgba(0, 0, 0, .14), 0px 1px 18px 0px rgba(0, 0, 0, .12);
+      --mdc-extended-fab-focus-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .2), 0px 8px 10px 1px rgba(0, 0, 0, .14), 0px 3px 14px 2px rgba(0, 0, 0, .12);
+      --mdc-extended-fab-hover-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .2), 0px 8px 10px 1px rgba(0, 0, 0, .14), 0px 3px 14px 2px rgba(0, 0, 0, .12);
+      --mdc-extended-fab-pressed-container-elevation-shadow: 0px 7px 8px -4px rgba(0, 0, 0, .2), 0px 12px 17px 2px rgba(0, 0, 0, .14), 0px 5px 22px 4px rgba(0, 0, 0, .12);
+      --mdc-extended-fab-container-shadow-color: #000
+    }
+
+    html {
+      --mat-fab-touch-target-display: block;
+      --mat-fab-small-touch-target-display: block
+    }
+
+    html {
+      --mdc-extended-fab-label-text-font: Roboto, sans-serif;
+      --mdc-extended-fab-label-text-size: 14px;
+      --mdc-extended-fab-label-text-tracking: .0892857143em;
+      --mdc-extended-fab-label-text-weight: 500
+    }
+
+    html {
+      --mdc-snackbar-container-shape: 4px
+    }
+
+    html {
+      --mdc-snackbar-container-color: #333333;
+      --mdc-snackbar-supporting-text-color: rgba(255, 255, 255, .87);
+      --mat-snack-bar-button-color: #ff4081
+    }
+
+    html {
+      --mdc-snackbar-supporting-text-font: Roboto, sans-serif;
+      --mdc-snackbar-supporting-text-line-height: 20px;
+      --mdc-snackbar-supporting-text-size: 14px;
+      --mdc-snackbar-supporting-text-weight: 400
+    }
+
+    html {
+      --mat-table-row-item-outline-width: 1px
+    }
+
+    html {
+      --mat-table-background-color: white;
+      --mat-table-header-headline-color: rgba(0, 0, 0, .87);
+      --mat-table-row-item-label-text-color: rgba(0, 0, 0, .87);
+      --mat-table-row-item-outline-color: rgba(0, 0, 0, .12)
+    }
+
+    html {
+      --mat-table-header-container-height: 56px;
+      --mat-table-footer-container-height: 52px;
+      --mat-table-row-item-container-height: 52px
+    }
+
+    html {
+      --mat-table-header-headline-font: Roboto, sans-serif;
+      --mat-table-header-headline-line-height: 22px;
+      --mat-table-header-headline-size: 14px;
+      --mat-table-header-headline-weight: 500;
+      --mat-table-header-headline-tracking: .0071428571em;
+      --mat-table-row-item-label-text-font: Roboto, sans-serif;
+      --mat-table-row-item-label-text-line-height: 20px;
+      --mat-table-row-item-label-text-size: 14px;
+      --mat-table-row-item-label-text-weight: 400;
+      --mat-table-row-item-label-text-tracking: .0178571429em;
+      --mat-table-footer-supporting-text-font: Roboto, sans-serif;
+      --mat-table-footer-supporting-text-line-height: 20px;
+      --mat-table-footer-supporting-text-size: 14px;
+      --mat-table-footer-supporting-text-weight: 400;
+      --mat-table-footer-supporting-text-tracking: .0178571429em
+    }
+
+    html {
+      --mdc-circular-progress-active-indicator-width: 4px;
+      --mdc-circular-progress-size: 48px
+    }
+
+    html {
+      --mdc-circular-progress-active-indicator-color: #3f51b5
+    }
+
+    html {
+      --mat-badge-container-shape: 50%;
+      --mat-badge-container-size: unset;
+      --mat-badge-small-size-container-size: unset;
+      --mat-badge-large-size-container-size: unset;
+      --mat-badge-legacy-container-size: 22px;
+      --mat-badge-legacy-small-size-container-size: 16px;
+      --mat-badge-legacy-large-size-container-size: 28px;
+      --mat-badge-container-offset: -11px 0;
+      --mat-badge-small-size-container-offset: -8px 0;
+      --mat-badge-large-size-container-offset: -14px 0;
+      --mat-badge-container-overlap-offset: -11px;
+      --mat-badge-small-size-container-overlap-offset: -8px;
+      --mat-badge-large-size-container-overlap-offset: -14px;
+      --mat-badge-container-padding: 0;
+      --mat-badge-small-size-container-padding: 0;
+      --mat-badge-large-size-container-padding: 0
+    }
+
+    html {
+      --mat-badge-background-color: #3f51b5;
+      --mat-badge-text-color: white;
+      --mat-badge-disabled-state-background-color: #b9b9b9;
+      --mat-badge-disabled-state-text-color: rgba(0, 0, 0, .38)
+    }
+
+    html {
+      --mat-badge-text-font: Roboto, sans-serif;
+      --mat-badge-text-size: 12px;
+      --mat-badge-text-weight: 600;
+      --mat-badge-small-size-text-size: 9px;
+      --mat-badge-large-size-text-size: 24px
+    }
+
+    html {
+      --mat-bottom-sheet-container-shape: 4px
+    }
+
+    html {
+      --mat-bottom-sheet-container-text-color: rgba(0, 0, 0, .87);
+      --mat-bottom-sheet-container-background-color: white
+    }
+
+    html {
+      --mat-bottom-sheet-container-text-font: Roboto, sans-serif;
+      --mat-bottom-sheet-container-text-line-height: 20px;
+      --mat-bottom-sheet-container-text-size: 14px;
+      --mat-bottom-sheet-container-text-tracking: .0178571429em;
+      --mat-bottom-sheet-container-text-weight: 400
+    }
+
+    html {
+      --mat-legacy-button-toggle-height: 36px;
+      --mat-legacy-button-toggle-shape: 2px;
+      --mat-legacy-button-toggle-focus-state-layer-opacity: 1;
+      --mat-standard-button-toggle-shape: 4px;
+      --mat-standard-button-toggle-hover-state-layer-opacity: .04;
+      --mat-standard-button-toggle-focus-state-layer-opacity: .12
+    }
+
+    html {
+      --mat-legacy-button-toggle-text-color: rgba(0, 0, 0, .38);
+      --mat-legacy-button-toggle-state-layer-color: rgba(0, 0, 0, .12);
+      --mat-legacy-button-toggle-selected-state-text-color: rgba(0, 0, 0, .54);
+      --mat-legacy-button-toggle-selected-state-background-color: #e0e0e0;
+      --mat-legacy-button-toggle-disabled-state-text-color: rgba(0, 0, 0, .26);
+      --mat-legacy-button-toggle-disabled-state-background-color: #eeeeee;
+      --mat-legacy-button-toggle-disabled-selected-state-background-color: #bdbdbd;
+      --mat-standard-button-toggle-text-color: rgba(0, 0, 0, .87);
+      --mat-standard-button-toggle-background-color: white;
+      --mat-standard-button-toggle-state-layer-color: black;
+      --mat-standard-button-toggle-selected-state-background-color: #e0e0e0;
+      --mat-standard-button-toggle-selected-state-text-color: rgba(0, 0, 0, .87);
+      --mat-standard-button-toggle-disabled-state-text-color: rgba(0, 0, 0, .26);
+      --mat-standard-button-toggle-disabled-state-background-color: white;
+      --mat-standard-button-toggle-disabled-selected-state-text-color: rgba(0, 0, 0, .87);
+      --mat-standard-button-toggle-disabled-selected-state-background-color: #bdbdbd;
+      --mat-standard-button-toggle-divider-color: #e0e0e0
+    }
+
+    html {
+      --mat-standard-button-toggle-height: 48px
+    }
+
+    html {
+      --mat-legacy-button-toggle-label-text-font: Roboto, sans-serif;
+      --mat-legacy-button-toggle-label-text-line-height: 24px;
+      --mat-legacy-button-toggle-label-text-size: 16px;
+      --mat-legacy-button-toggle-label-text-tracking: .03125em;
+      --mat-legacy-button-toggle-label-text-weight: 400;
+      --mat-standard-button-toggle-label-text-font: Roboto, sans-serif;
+      --mat-standard-button-toggle-label-text-line-height: 24px;
+      --mat-standard-button-toggle-label-text-size: 16px;
+      --mat-standard-button-toggle-label-text-tracking: .03125em;
+      --mat-standard-button-toggle-label-text-weight: 400
+    }
+
+    html {
+      --mat-datepicker-calendar-container-shape: 4px;
+      --mat-datepicker-calendar-container-touch-shape: 4px;
+      --mat-datepicker-calendar-container-elevation-shadow: 0px 2px 4px -1px rgba(0, 0, 0, .2), 0px 4px 5px 0px rgba(0, 0, 0, .14), 0px 1px 10px 0px rgba(0, 0, 0, .12);
+      --mat-datepicker-calendar-container-touch-elevation-shadow: 0px 11px 15px -7px rgba(0, 0, 0, .2), 0px 24px 38px 3px rgba(0, 0, 0, .14), 0px 9px 46px 8px rgba(0, 0, 0, .12)
+    }
+
+    html {
+      --mat-datepicker-calendar-date-selected-state-text-color: white;
+      --mat-datepicker-calendar-date-selected-state-background-color: #3f51b5;
+      --mat-datepicker-calendar-date-selected-disabled-state-background-color: rgba(63, 81, 181, .4);
+      --mat-datepicker-calendar-date-today-selected-state-outline-color: white;
+      --mat-datepicker-calendar-date-focus-state-background-color: rgba(63, 81, 181, .3);
+      --mat-datepicker-calendar-date-hover-state-background-color: rgba(63, 81, 181, .3);
+      --mat-datepicker-toggle-active-state-icon-color: #3f51b5;
+      --mat-datepicker-calendar-date-in-range-state-background-color: rgba(63, 81, 181, .2);
+      --mat-datepicker-calendar-date-in-comparison-range-state-background-color: rgba(249, 171, 0, .2);
+      --mat-datepicker-calendar-date-in-overlap-range-state-background-color: #a8dab5;
+      --mat-datepicker-calendar-date-in-overlap-range-selected-state-background-color: #46a35e;
+      --mat-datepicker-toggle-icon-color: rgba(0, 0, 0, .54);
+      --mat-datepicker-calendar-body-label-text-color: rgba(0, 0, 0, .54);
+      --mat-datepicker-calendar-period-button-text-color: black;
+      --mat-datepicker-calendar-period-button-icon-color: rgba(0, 0, 0, .54);
+      --mat-datepicker-calendar-navigation-button-icon-color: rgba(0, 0, 0, .54);
+      --mat-datepicker-calendar-header-divider-color: rgba(0, 0, 0, .12);
+      --mat-datepicker-calendar-header-text-color: rgba(0, 0, 0, .54);
+      --mat-datepicker-calendar-date-today-outline-color: rgba(0, 0, 0, .38);
+      --mat-datepicker-calendar-date-today-disabled-state-outline-color: rgba(0, 0, 0, .18);
+      --mat-datepicker-calendar-date-text-color: rgba(0, 0, 0, .87);
+      --mat-datepicker-calendar-date-outline-color: transparent;
+      --mat-datepicker-calendar-date-disabled-state-text-color: rgba(0, 0, 0, .38);
+      --mat-datepicker-calendar-date-preview-state-outline-color: rgba(0, 0, 0, .24);
+      --mat-datepicker-range-input-separator-color: rgba(0, 0, 0, .87);
+      --mat-datepicker-range-input-disabled-state-separator-color: rgba(0, 0, 0, .38);
+      --mat-datepicker-range-input-disabled-state-text-color: rgba(0, 0, 0, .38);
+      --mat-datepicker-calendar-container-background-color: white;
+      --mat-datepicker-calendar-container-text-color: rgba(0, 0, 0, .87)
+    }
+
+    html {
+      --mat-datepicker-calendar-text-font: Roboto, sans-serif;
+      --mat-datepicker-calendar-text-size: 13px;
+      --mat-datepicker-calendar-body-label-text-size: 14px;
+      --mat-datepicker-calendar-body-label-text-weight: 500;
+      --mat-datepicker-calendar-period-button-text-size: 14px;
+      --mat-datepicker-calendar-period-button-text-weight: 500;
+      --mat-datepicker-calendar-header-text-size: 11px;
+      --mat-datepicker-calendar-header-text-weight: 400
+    }
+
+    html {
+      --mat-divider-width: 1px
+    }
+
+    html {
+      --mat-divider-color: rgba(0, 0, 0, .12)
+    }
+
+    html {
+      --mat-expansion-container-shape: 4px;
+      --mat-expansion-legacy-header-indicator-display: inline-block;
+      --mat-expansion-header-indicator-display: none
+    }
+
+    html {
+      --mat-expansion-container-background-color: white;
+      --mat-expansion-container-text-color: rgba(0, 0, 0, .87);
+      --mat-expansion-actions-divider-color: rgba(0, 0, 0, .12);
+      --mat-expansion-header-hover-state-layer-color: rgba(0, 0, 0, .04);
+      --mat-expansion-header-focus-state-layer-color: rgba(0, 0, 0, .04);
+      --mat-expansion-header-disabled-state-text-color: rgba(0, 0, 0, .26);
+      --mat-expansion-header-text-color: rgba(0, 0, 0, .87);
+      --mat-expansion-header-description-color: rgba(0, 0, 0, .54);
+      --mat-expansion-header-indicator-color: rgba(0, 0, 0, .54)
+    }
+
+    html {
+      --mat-expansion-header-collapsed-state-height: 48px;
+      --mat-expansion-header-expanded-state-height: 64px
+    }
+
+    html {
+      --mat-expansion-header-text-font: Roboto, sans-serif;
+      --mat-expansion-header-text-size: 14px;
+      --mat-expansion-header-text-weight: 500;
+      --mat-expansion-header-text-line-height: inherit;
+      --mat-expansion-header-text-tracking: inherit;
+      --mat-expansion-container-text-font: Roboto, sans-serif;
+      --mat-expansion-container-text-line-height: 20px;
+      --mat-expansion-container-text-size: 14px;
+      --mat-expansion-container-text-tracking: .0178571429em;
+      --mat-expansion-container-text-weight: 400
+    }
+
+    html {
+      --mat-grid-list-tile-header-primary-text-size: 14px;
+      --mat-grid-list-tile-header-secondary-text-size: 12px;
+      --mat-grid-list-tile-footer-primary-text-size: 14px;
+      --mat-grid-list-tile-footer-secondary-text-size: 12px
+    }
+
+    html {
+      --mat-icon-color: inherit
+    }
+
+    html {
+      --mat-sidenav-container-shape: 0;
+      --mat-sidenav-container-elevation-shadow: 0px 8px 10px -5px rgba(0, 0, 0, .2), 0px 16px 24px 2px rgba(0, 0, 0, .14), 0px 6px 30px 5px rgba(0, 0, 0, .12);
+      --mat-sidenav-container-width: auto
+    }
+
+    html {
+      --mat-sidenav-container-divider-color: rgba(0, 0, 0, .12);
+      --mat-sidenav-container-background-color: white;
+      --mat-sidenav-container-text-color: rgba(0, 0, 0, .87);
+      --mat-sidenav-content-background-color: #fafafa;
+      --mat-sidenav-content-text-color: rgba(0, 0, 0, .87);
+      --mat-sidenav-scrim-color: rgba(0, 0, 0, .6)
+    }
+
+    html {
+      --mat-stepper-header-icon-foreground-color: white;
+      --mat-stepper-header-selected-state-icon-background-color: #3f51b5;
+      --mat-stepper-header-selected-state-icon-foreground-color: white;
+      --mat-stepper-header-done-state-icon-background-color: #3f51b5;
+      --mat-stepper-header-done-state-icon-foreground-color: white;
+      --mat-stepper-header-edit-state-icon-background-color: #3f51b5;
+      --mat-stepper-header-edit-state-icon-foreground-color: white;
+      --mat-stepper-container-color: white;
+      --mat-stepper-line-color: rgba(0, 0, 0, .12);
+      --mat-stepper-header-hover-state-layer-color: rgba(0, 0, 0, .04);
+      --mat-stepper-header-focus-state-layer-color: rgba(0, 0, 0, .04);
+      --mat-stepper-header-label-text-color: rgba(0, 0, 0, .54);
+      --mat-stepper-header-optional-label-text-color: rgba(0, 0, 0, .54);
+      --mat-stepper-header-selected-state-label-text-color: rgba(0, 0, 0, .87);
+      --mat-stepper-header-error-state-label-text-color: #f44336;
+      --mat-stepper-header-icon-background-color: rgba(0, 0, 0, .54);
+      --mat-stepper-header-error-state-icon-foreground-color: #f44336;
+      --mat-stepper-header-error-state-icon-background-color: transparent
+    }
+
+    html {
+      --mat-stepper-header-height: 72px
+    }
+
+    html {
+      --mat-stepper-container-text-font: Roboto, sans-serif;
+      --mat-stepper-header-label-text-font: Roboto, sans-serif;
+      --mat-stepper-header-label-text-size: 14px;
+      --mat-stepper-header-label-text-weight: 400;
+      --mat-stepper-header-error-state-label-text-size: 16px;
+      --mat-stepper-header-selected-state-label-text-size: 16px;
+      --mat-stepper-header-selected-state-label-text-weight: 400
+    }
+
+    html {
+      --mat-sort-arrow-color: #757575
+    }
+
+    html {
+      --mat-toolbar-container-background-color: whitesmoke;
+      --mat-toolbar-container-text-color: rgba(0, 0, 0, .87)
+    }
+
+    html {
+      --mat-toolbar-standard-height: 64px;
+      --mat-toolbar-mobile-height: 56px
+    }
+
+    html {
+      --mat-toolbar-title-text-font: Roboto, sans-serif;
+      --mat-toolbar-title-text-line-height: 32px;
+      --mat-toolbar-title-text-size: 20px;
+      --mat-toolbar-title-text-tracking: .0125em;
+      --mat-toolbar-title-text-weight: 500
+    }
+
+    html {
+      --mat-tree-container-background-color: white;
+      --mat-tree-node-text-color: rgba(0, 0, 0, .87)
+    }
+
+    html {
+      --mat-tree-node-min-height: 48px
+    }
+
+    html {
+      --mat-tree-node-text-font: Roboto, sans-serif;
+      --mat-tree-node-text-size: 14px;
+      --mat-tree-node-text-weight: 400
+    }
+
+    @font-face {
+      font-family: Iceland;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/iceland/v20/rax9HiuFsdMNOnWPaKtMAQ.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: italic;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXX3I6Li01BKofIMNaORs71cA.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: italic;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXX3I6Li01BKofIMNaHRs71cA.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: italic;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXX3I6Li01BKofIMNaMRs71cA.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: italic;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXX3I6Li01BKofIMNaNRs71cA.woff2) format("woff2");
+      unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: italic;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXX3I6Li01BKofIMNaDRs4.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXV3I6Li01BKofIOOaBXso.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXV3I6Li01BKofIMeaBXso.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXV3I6Li01BKofIOuaBXso.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXV3I6Li01BKofIO-aBXso.woff2) format("woff2");
+      unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 200 1000;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/nunito/v26/XRXV3I6Li01BKofINeaB.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    :root {
+      --text: #f4f4f4;
+      --text-secundary: #DDDDDD;
+      --background: #212529;
+      --bg: #1b1e20;
+      --background-secundary: #1C1F22;
+      --primary: #FF5A13;
+      --primary-hover: #cf4f18;
+      --text-orange: #F38C21;
+      --secondary: #f2f2f2;
+      --accent: #ffb084;
+      --gray: #464a52;
+      --font-secundary: "Nunito", sans-serif
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    html {
+      font-size: 10px;
+      font-family: Iceland, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      scroll-behavior: smooth
+    }
+
+    body {
+      font-size: 1.6rem;
+      color: var(--text);
+      background-color: var(--bg)
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none
+    }
+
+    ul,
+    li {
+      list-style: none
+    }
+
+    .main:after {
+      background-image: radial-gradient(at 40% 40%, rgb(14, 68, 122) 0px, transparent 50%), radial-gradient(at 90% 10%, rgb(255, 105, 180) 0px, transparent 50%), radial-gradient(at 50% 95%, rgb(0, 255, 255) 0px, transparent 50%), radial-gradient(at 20% 30%, rgb(50, 205, 50) 0px, transparent 50%), radial-gradient(at 90% 90%, rgb(255, 255, 0) 0px, transparent 50%), radial-gradient(at 33% 50%, rgb(255, 69, 0) 0px, transparent 50%), radial-gradient(at 79% 53%, rgb(128, 0, 128) 0px, transparent 50%);
+      position: fixed;
+      content: "";
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      filter: blur(100px) saturate(100%);
+      top: 0;
+      opacity: .1;
+      transform: translateZ(0)
+    }
+
+    .main:before {
+      content: "";
+      height: 100vh;
+      width: 100vw;
+      color: #71717112;
+      position: fixed;
+      z-index: -1;
+      background: linear-gradient(currentcolor 1px, transparent 1px) 0% 0%/94px 90px, linear-gradient(to right, currentcolor 1px, transparent 1px) transparent;
+      transition: all .5s linear 0s;
+      background-size: 8rem 8rem;
+      opacity: 1
+    }
+  </style>
+  <link rel="stylesheet" href="styles-NQQGVRQN.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="styles-NQQGVRQN.css">
+  </noscript>
+  <link rel="modulepreload" href="chunk-GTQ363LJ.js">
+  <style ng-app-id="ng">
+    .home[_ngcontent-ng-c3831413297] {
+      height: 100vh
+    }
+
+    .home_main[_ngcontent-ng-c3831413297] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10rem;
+      height: 100%
+    }
+
+    @media screen and (max-width: 500px) {
+      .home_main[_ngcontent-ng-c3831413297] {
+        flex-wrap: wrap;
+        height: calc(100% - 14rem);
+        padding: 0 1.5rem
+      }
+    }
+
+    .home_main_content[_ngcontent-ng-c3831413297] {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem
+    }
+
+    .home_main_content_group_title[_ngcontent-ng-c3831413297] {
+      color: var(--text);
+      font-size: 6.4rem;
+      margin-bottom: 1.2rem
+    }
+
+    @media screen and (max-width: 500px) {
+      .home_main_content_group_title[_ngcontent-ng-c3831413297] {
+        font-size: 3.4rem
+      }
+    }
+
+    .home_main_content_group_title_span[_ngcontent-ng-c3831413297] {
+      color: var(--primary)
+    }
+
+    .home_main_content_group_subtitle[_ngcontent-ng-c3831413297] {
+      font-size: 2.4rem;
+      color: var(--text-secundary)
+    }
+
+    .home_main_animation[_ngcontent-ng-c3831413297] {
+      transition: 1s ease
+    }
+
+    .home_main_animation[_ngcontent-ng-c3831413297]:hover {
+      scale: 1.1
+    }
+  </style>
+  <style ng-app-id="ng">
+    .about[_ngcontent-ng-c1969659224] {
+      height: 100vh;
+      padding: 0 10rem
+    }
+
+    @media screen and (max-width: 500px) {
+      .about[_ngcontent-ng-c1969659224] {
+        padding: 0 1.5rem
+      }
+    }
+
+    .about_container[_ngcontent-ng-c1969659224] {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between
+    }
+
+    @media screen and (max-width: 500px) {
+      .about_container[_ngcontent-ng-c1969659224] {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem
+      }
+    }
+
+    .about_container_perfil[_ngcontent-ng-c1969659224] {
+      width: 50rem;
+      height: 40rem;
+      border-radius: 50rem;
+      overflow: hidden
+    }
+
+    @media screen and (max-width: 500px) {
+
+      .about_container_perfil[_ngcontent-ng-c1969659224],
+      .about_container_perfil[_ngcontent-ng-c1969659224] img[_ngcontent-ng-c1969659224] {
+        width: 20rem;
+        height: 20rem
+      }
+    }
+
+    .about_container_perfil_img[_ngcontent-ng-c1969659224] {
+      transition: 1s ease
+    }
+
+    .about_container_perfil_img[_ngcontent-ng-c1969659224]:hover {
+      scale: 1.1
+    }
+
+    .about_container_content[_ngcontent-ng-c1969659224] {
+      max-width: 57rem
+    }
+
+    .about_container_content_title[_ngcontent-ng-c1969659224] {
+      font-size: 6rem
+    }
+
+    @media screen and (max-width: 500px) {
+      .about_container_content_title[_ngcontent-ng-c1969659224] {
+        font-size: 3.4rem;
+        margin-bottom: 2rem
+      }
+    }
+
+    .about_container_content_txt[_ngcontent-ng-c1969659224] {
+      margin-top: 2rem;
+      font-size: 1.6rem;
+      font-family: var(--font-secundary);
+      line-height: 2.4rem;
+      color: var(--text-secundary)
+    }
+
+    @media screen and (max-width: 500px) {
+      .about_container_content_txt[_ngcontent-ng-c1969659224] {
+        overflow-x: hidden;
+        max-height: 40rem
+      }
+    }
+  </style>
+  <style ng-app-id="ng">
+    .skills[_ngcontent-ng-c4037020810] {
+      height: 130vh;
+      padding: 0 10rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: var(--background-secundary)
+    }
+
+    @media screen and (max-width: 500px) {
+      .skills[_ngcontent-ng-c4037020810] {
+        flex-wrap: wrap
+      }
+    }
+
+    .skills_left_title[_ngcontent-ng-c4037020810] {
+      font-size: 6rem;
+      max-width: 45rem
+    }
+
+    .skills_left_subtitle[_ngcontent-ng-c4037020810] {
+      font-family: var(--font-secundary);
+      color: var(--text-secundary);
+      margin-top: 2rem
+    }
+
+    .skills_right_list[_ngcontent-ng-c4037020810] {
+      max-width: 46rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem
+    }
+
+    .skills_right_list_card[_ngcontent-ng-c4037020810] {
+      width: 10rem;
+      height: 10.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #212529;
+      border-radius: .5rem;
+      border: .1rem solid #555;
+      transition: all .8s ease 0s, opacity 1s cubic-bezier(.5, 0, 0, 1) 0s, transform 1s cubic-bezier(.5, 0, 0, 1) 0s
+    }
+
+    .skills_right_list_card[_ngcontent-ng-c4037020810] ng-icon[_ngcontent-ng-c4037020810] {
+      color: #6b707a;
+      transition: all .8s ease 0s
+    }
+
+    .skills_right_list_card[_ngcontent-ng-c4037020810]:hover {
+      scale: 1.1;
+      border: .1rem solid var(--primary-hover)
+    }
+
+    .skills_right_list_card[_ngcontent-ng-c4037020810]:hover ng-icon[_ngcontent-ng-c4037020810] {
+      color: #f35f1f
+    }
+
+    .background-image[_ngcontent-ng-c4037020810] {
+      width: 50rem;
+      height: 40rem;
+      border-radius: 50rem
+    }
+  </style>
+  <style ng-app-id="ng">
+    .card_image[_ngcontent-ng-c4081265934] {
+      width: 30rem;
+      border-radius: 2rem;
+      padding-left: 1rem;
+      transition: transform .6s ease
+    }
+
+    .card_image[_ngcontent-ng-c4081265934]:hover {
+      transform: scale(1.1)
+    }
+
+    .projects[_ngcontent-ng-c4081265934] {
+      height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem
+    }
+
+    .projects_title[_ngcontent-ng-c4081265934] {
+      font-size: 6rem
+    }
+
+    .projects_subtitle[_ngcontent-ng-c4081265934] {
+      font-family: var(--font-secundary);
+      padding-left: 1rem
+    }
+
+    .projects_list[_ngcontent-ng-c4081265934] {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      max-width: 55rem;
+      margin-top: 1rem;
+      padding: 0 6rem
+    }
+
+    .projects_list_card[_ngcontent-ng-c4081265934] {
+      width: 50rem;
+      height: 20rem;
+      border-radius: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: gray;
+      font-size: var(--font-secundary);
+      color: #e9dddd;
+      font-size: 1.4rem
+    }
+  </style>
+  <style ng-app-id="ng">
+    .footer[_ngcontent-ng-c566249981] {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #1c1f22
+    }
+
+    .footer_card[_ngcontent-ng-c566249981] {
+      padding: 0 14rem;
+      margin-top: 2rem
+    }
+
+    .footer_card_container[_ngcontent-ng-c566249981] {
+      background-color: #3b4147;
+      height: 15rem;
+      border-radius: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem
+    }
+
+    .footer_card_container_title[_ngcontent-ng-c566249981] {
+      font-size: 3.5rem
+    }
+
+    .footer_card_container_txt[_ngcontent-ng-c566249981] {
+      max-width: 35rem;
+      text-align: center;
+      font-family: var(--font-secundary);
+      padding-left: 2rem;
+      padding-right: 2rem
+    }
+
+    .footer_card_container_button[_ngcontent-ng-c566249981] {
+      background-color: transparent;
+      border: .1rem solid #13FFAA;
+      border-radius: 5rem;
+      padding: 2rem;
+      color: #fff;
+      font-family: var(--font-secundary);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      cursor: pointer;
+      transition: .3s
+    }
+
+    .footer_card_container_button[_ngcontent-ng-c566249981]:hover {
+      background-color: #464a52;
+      scale: 1.05;
+      box-shadow: #14141433 0 8px 24px
+    }
+
+    .footer_card_container_button[_ngcontent-ng-c566249981] img[_ngcontent-ng-c566249981] {
+      width: auto;
+      height: 1.7rem
+    }
+
+    .footer_content[_ngcontent-ng-c566249981] {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 9rem
+    }
+
+    .footer_content_txt[_ngcontent-ng-c566249981] {
+      max-width: 36rem;
+      text-align: center;
+      font-size: 2rem;
+      color: var(--text-secundary)
+    }
+
+    .footer_content_txt[_ngcontent-ng-c566249981] span[_ngcontent-ng-c566249981] {
+      color: var(--text-orange)
+    }
+
+    .footer_content_social[_ngcontent-ng-c566249981] {
+      display: flex;
+      align-items: center;
+      gap: 2rem
+    }
+
+    .footer_content_social_icon[_ngcontent-ng-c566249981] {
+      border: .1rem solid var(--text-orange);
+      border-radius: 4rem;
+      width: 5rem;
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: .2s
+    }
+
+    .footer_content_social_icon[_ngcontent-ng-c566249981]:hover {
+      background-color: #0c0c0c62;
+      scale: 1.1;
+      box-shadow: #0000002a 0 4px 6px -1px, #0000002a 0 2px 4px -1px
+    }
+
+    .footer_copy[_ngcontent-ng-c566249981] {
+      width: 100%;
+      height: 8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+
+    .footer_copy_txt[_ngcontent-ng-c566249981] {
+      font-family: var(--font-secundary)
+    }
+
+    .footer_copy_txt[_ngcontent-ng-c566249981] b[_ngcontent-ng-c566249981] {
+      color: var(--text-orange)
+    }
+  </style>
+  <style ng-app-id="ng">
+    .header[_ngcontent-ng-c104959837] {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 14rem;
+      padding: 0 8rem;
+      color: var(--text);
+      font-size: 2.4rem;
+      transition: .5s
+    }
+
+    @media screen and (max-width: 500px) {
+      .header[_ngcontent-ng-c104959837] {
+        justify-content: center
+      }
+    }
+
+    .header.scrolled[_ngcontent-ng-c104959837] {
+      background-color: #44444460;
+      height: 8.5rem
+    }
+
+    .header_menu[_ngcontent-ng-c104959837] {
+      display: flex;
+      align-items: center;
+      gap: 4rem
+    }
+
+    @media screen and (max-width: 500px) {
+      .header_menu[_ngcontent-ng-c104959837] {
+        display: none
+      }
+    }
+
+    .header_menu_item_link[_ngcontent-ng-c104959837] {
+      transition: .2s
+    }
+
+    .header_menu_item_link[_ngcontent-ng-c104959837]:hover {
+      color: var(--primary)
+    }
+
+    .header_menu_item_link.download-button[_ngcontent-ng-c104959837] {
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .8rem;
+      background-color: #a0a0a012;
+      width: 14rem;
+      height: 4.5rem;
+      border-radius: 1rem;
+      border: .1rem solid var(--primary);
+      font-size: 2rem;
+      transition: .2s
+    }
+
+    .header_menu_item_link.download-button[_ngcontent-ng-c104959837]:hover {
+      scale: 1.05;
+      box-shadow: #ff5a132a 0 4px 10px
+    }
+  </style>
+  <style ng-app-id="ng">
+    .email_box[_ngcontent-ng-c832885831] {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      border: .1rem solid #444;
+      cursor: pointer;
+      padding: 2rem;
+      position: relative;
+      width: 29.5rem;
+      transition: 1s;
+      color: var(--text-secundary);
+      background-color: #2222224f
+    }
+
+    .email_box[_ngcontent-ng-c832885831]:hover {
+      background-color: #bb553c
+    }
+
+    .email_box_icon[_ngcontent-ng-c832885831] {
+      border-right: .1rem solid #444;
+      padding-right: 2rem
+    }
+
+    .email_box_txt[_ngcontent-ng-c832885831] {
+      position: relative;
+      height: 2rem;
+      width: 100%;
+      font-size: 1.8rem
+    }
+
+    .email_box_txt_copy[_ngcontent-ng-c832885831],
+    .email_box_txt_email[_ngcontent-ng-c832885831] {
+      position: absolute;
+      opacity: 1;
+      transition: .4s
+    }
+
+    .email_box_txt_copy.disabled[_ngcontent-ng-c832885831],
+    .email_box_txt_email.disabled[_ngcontent-ng-c832885831] {
+      opacity: 0
+    }
+
+    .email_box_copy[_ngcontent-ng-c832885831] {
+      position: absolute;
+      top: 1rem;
+      right: 30%;
+      transform: rotate(-5deg);
+      opacity: 0;
+      transition: .4s
+    }
+
+    .email_box_copy.clicked[_ngcontent-ng-c832885831] {
+      opacity: 1;
+      top: -1rem
+    }
+  </style>
+  <style ng-app-id="ng">
+    [_nghost-ng-c3809212565] {
+      display: inline-block;
+      width: var(--ng-icon__size);
+      height: var(--ng-icon__size);
+      overflow: hidden
+    }
+  </style>
+</head>
+
+<body><!--nghm-->
+  <p></p>
+  <app-root _nghost-ng-c3551440409 ng-version="17.1.0" ngh="5" ng-server-context="ssg">
+    <div _ngcontent-ng-c3551440409 class="app"><router-outlet _ngcontent-ng-c3551440409></router-outlet><app-main
+        _nghost-ng-c2848842264 ngh="0">
+        <div _ngcontent-ng-c2848842264 class="main"><app-home _ngcontent-ng-c2848842264 _nghost-ng-c3831413297 ngh="0">
+            <main _ngcontent-ng-c3831413297 id="home" class="home">
+              <header _ngcontent-ng-c3831413297 class="home_header"><app-header _ngcontent-ng-c3831413297
+                  _nghost-ng-c104959837 ngh="1">
+                  <header _ngcontent-ng-c104959837 class="header"><img _ngcontent-ng-c104959837 ngsrc="assets/Logo.png"
+                      width="65" height="65" loading="lazy" fetchpriority="auto" ng-img="true" src="assets/Logo.png">
+                    <ul _ngcontent-ng-c104959837 class="header_menu">
+                      <li _ngcontent-ng-c104959837 class="header_menu_item"><a _ngcontent-ng-c104959837
+                          class="header_menu_item_link" href="#" target><!----> Início </a></li>
+                      <li _ngcontent-ng-c104959837 class="header_menu_item"><a _ngcontent-ng-c104959837
+                          class="header_menu_item_link" href="#about" target><!----> Sobre </a></li>
+                      <li _ngcontent-ng-c104959837 class="header_menu_item"><a _ngcontent-ng-c104959837
+                          class="header_menu_item_link" href="#skills" target><!----> Habilidades </a></li>
+                      <li _ngcontent-ng-c104959837 class="header_menu_item"><a _ngcontent-ng-c104959837
+                          class="header_menu_item_link" href="#projects" target><!----> Projetos </a></li>
+                      <li _ngcontent-ng-c104959837 class="header_menu_item"><a _ngcontent-ng-c104959837
+                          class="header_menu_item_link" href="#footer" target><!----> Contato </a></li>
+                      <li _ngcontent-ng-c104959837 class="header_menu_item"><a _ngcontent-ng-c104959837
+                          class="header_menu_item_link download-button" href="assets/Curriculo Marcos Vinicius.pdf"
+                          target><ng-icon _ngcontent-ng-c104959837 _nghost-ng-c3809212565 style="--ng-icon__size: 1em;"
+                            ngh="0"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"
+                              style="width:var(--ng-icon__size, 1em);height:var(--ng-icon__size, 1em)"
+                              fill="currentColor">
+                              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                d="M112 268l144 144 144-144M256 392V100"
+                                style="stroke-width:var(--ng-icon__stroke-width, 48)" />
+                            </svg></ng-icon><!----> Currículo </a></li><!---->
+                    </ul>
+                  </header>
+                </app-header></header>
+              <div _ngcontent-ng-c3831413297 class="home_main">
+                <div _ngcontent-ng-c3831413297 class="home_main_content">
+                  <div _ngcontent-ng-c3831413297 class="home_main_content_group">
+                    <h1 _ngcontent-ng-c3831413297 class="home_main_content_group_title">Olá, <br
+                        _ngcontent-ng-c3831413297> Eu sou o <span _ngcontent-ng-c3831413297
+                        class="home_main_content_group_title_span">Marcos Vinicius!</span></h1>
+                    <p _ngcontent-ng-c3831413297 class="home_main_content_group_subtitle">Desenvolvedor BackEnd a
+                      caminho do FullStack.</p>
+                  </div><app-email-box _ngcontent-ng-c3831413297 _nghost-ng-c832885831 ngh="0">
+                    <div _ngcontent-ng-c832885831 class="email_box"><span _ngcontent-ng-c832885831
+                        class="email_box_icon"><ng-icon _ngcontent-ng-c832885831 name="ionMailOutline" size="1.8rem"
+                          _nghost-ng-c3809212565 style="--ng-icon__size: 1.8rem;" ngh="0"><svg
+                            xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"
+                            style="width:var(--ng-icon__size, 1em);height:var(--ng-icon__size, 1em)"
+                            fill="currentColor">
+                            <rect x="48" y="96" width="416" height="320" rx="40" ry="40" fill="none"
+                              stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                              style="stroke-width:var(--ng-icon__stroke-width, 32)" />
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                              d="M112 160l144 112 144-112" style="stroke-width:var(--ng-icon__stroke-width, 32)" />
+                          </svg></ng-icon></span><span _ngcontent-ng-c832885831 class="email_box_copy">Copiado!</span>
+                      <div _ngcontent-ng-c832885831 class="email_box_txt"><span _ngcontent-ng-c832885831
+                          class="email_box_txt_email">vinicius.dm1515@gmail.com</span><span _ngcontent-ng-c832885831
+                          class="email_box_txt_copy disabled">Clique para copiar</span></div>
+                    </div>
+                  </app-email-box>
+                </div>
+                <div _ngcontent-ng-c3831413297 class="home_main_animation"><ng-lottie _ngcontent-ng-c3831413297 ngh="0">
+                    <div style="width: 100%; height: 100%;"></div>
+                  </ng-lottie></div>
+              </div>
+            </main>
+          </app-home><app-about _ngcontent-ng-c2848842264 _nghost-ng-c1969659224 ngh="0">
+            <section _ngcontent-ng-c1969659224 id="about" class="about">
+              <div _ngcontent-ng-c1969659224 class="about_container">
+                <div _ngcontent-ng-c1969659224 class="about_container_perfil"><img _ngcontent-ng-c1969659224
+                    ngsrc="assets/perfil.png" width="400" height="400" alt="Foto de perfil"
+                    class="about_container_perfil_img" loading="lazy" fetchpriority="auto" ng-img="true"
+                    src="assets/perfil.png"></div>
+                <div _ngcontent-ng-c1969659224 class="about_container_content">
+                  <h1 _ngcontent-ng-c1969659224 class="about_container_content_title">Sobre mim</h1>
+                  <p _ngcontent-ng-c1969659224 class="about_container_content_txt">Desenvolvedor Java BackEnd <br
+                      _ngcontent-ng-c1969659224><br _ngcontent-ng-c1969659224> Sou um entusiasta do desenvolvimento de
+                    software, apaixonado por criar e desvendar os intricados mecanismos por trás das aplicações
+                    digitais. <br _ngcontent-ng-c1969659224><br _ngcontent-ng-c1969659224> Com sólido conhecimento em
+                    desenvolvimento BackEnd, especialmente em Java e frameworks como Spring MVC, estou sempre explorando
+                    novas técnicas e tendências para aprimorar minhas habilidades. <br _ngcontent-ng-c1969659224><br
+                      _ngcontent-ng-c1969659224> Tenho facilidade para trabalhar em grupo, agilidade para aprender novas
+                    habilidades e tecnologias, e grande adaptabilidade às mudanças. Estou sempre pronto para superar
+                    novos desafios! </p>
+                </div>
+              </div>
+            </section>
+          </app-about><app-skills _ngcontent-ng-c2848842264 _nghost-ng-c4037020810 ngh="2">
+            <div _ngcontent-ng-c4037020810 id="skills" class="skills">
+              <div _ngcontent-ng-c4037020810 class="skills_left">
+                <h2 _ngcontent-ng-c4037020810 class="skills_left_title">Minhas habilidades e tecnologias</h2>
+                <p _ngcontent-ng-c4037020810 class="skills_left_subtitle">Passe o mouse sobre os cards (Adicionar icon
+                  mouse) </p>
+              </div>
+              <div _ngcontent-ng-c4037020810 class="skills_right">
+                <ul _ngcontent-ng-c4037020810 class="skills_right_list">
+                  <li _ngcontent-ng-c4037020810 class="skills_right_list_card"><ng-icon _ngcontent-ng-c4037020810
+                      size="5.5rem" _nghost-ng-c3809212565 style="--ng-icon__size: 5.5rem;" ngh="0"><svg
+                        xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g transform="">
+                          <g fill="#8e8e8e" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <g transform="scale(5.12,5.12)">
+                              <path
+                                d="M28.19922,0c2.8,6.4 -9.9,10.29961 -11,15.59961c-1.1,4.9 7.40039,10.5 7.40039,10.5c-1.3,-2 -2.2,-3.69883 -3.5,-6.79883c-2.2,-5.3 13.39961,-10.10078 7.09961,-19.30078zM36.59961,8.80078c0,0 -11.09922,0.69883 -11.69922,7.79883c-0.3,3.1 2.9,4.79961 3,7.09961c0.1,1.9 -1.90039,3.40039 -1.90039,3.40039c0,0 3.59922,-0.7 4.69922,-3.5c1.2,-3.2 -2.4,-5.30039 -2,-7.90039c0.4,-2.4 7.90039,-6.89844 7.90039,-6.89844zM19.19922,25.09961c0,0 -10.09961,-0.09922 -10.09961,2.80078c0,3 13.20117,3.19883 22.70117,1.29883c0,0 2.49922,-1.69844 3.19922,-2.39844c-6.2,1.3 -20.40039,1.39883 -20.40039,0.29883c0,-1 4.59961,-2 4.59961,-2zM39.20898,25.1543c-1.15723,-0.05391 -2.44687,0.32148 -3.60937,1.14648c2.3,-0.5 4.20117,0.9 4.20117,2.5c0,3.6 -5.20117,7 -5.20117,7c0,0 8.09961,-0.90039 8.09961,-6.90039c0,-2.375 -1.56152,-3.65625 -3.49023,-3.74609zM16.69922,30.80078c-1.6,0 -3.89844,1.19844 -3.89844,2.39844c0,2.3 11.69883,4.10117 20.29883,0.70117l-2.90039,-1.90039c-5.9,1.9 -16.7,1.30078 -13.5,-1.19922zM18.19922,35.90039c-2.1,0 -3.5,1.29883 -3.5,2.29883c0,3 12.70117,3.30078 17.70117,0.30078l-3.20117,-2c-3.7,1.5 -13.2,1.70039 -11,-0.59961zM11.05078,38.55273c-3.45488,-0.08613 -5.75,1.52305 -5.75,2.74805c0.1,7 35.59961,6.69961 35.59961,-0.40039c0,-1.2 -1.40039,-1.7 -1.90039,-2c2.9,6.7 -29.09961,6.19922 -29.09961,2.19922c0,-0.9 2.3,-1.80039 4.5,-1.40039l-1.80078,-1c-0.5375,-0.0875 -1.05527,-0.13418 -1.54883,-0.14648zM44.59961,43.19922c-5.4,5.1 -19.10039,7.00078 -32.90039,3.80078c13.8,5.7 32.90039,2.49922 32.90039,-3.80078z" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg></ng-icon></li>
+                  <li _ngcontent-ng-c4037020810 class="skills_right_list_card"><ng-icon _ngcontent-ng-c4037020810
+                      size="5.5rem" _nghost-ng-c3809212565 style="--ng-icon__size: 5.5rem;" ngh="0"><svg
+                        xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="55" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g transform="translate(-21.76,-21.76) scale(1.17,1.17)">
+                          <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <g transform="scale(5.33333,5.33333)">
+                              <path
+                                d="M43.982,23.635c0.069,-4.261 -0.891,-9.328 -2.891,-15.273l-1.568,-4.662l-2.13,4.433c-0.114,0.237 -0.244,0.469 -0.38,0.698c-3.499,-3.004 -8.039,-4.831 -13.013,-4.831c-11.046,0 -20,8.954 -20,20c0,11.046 8.954,20 20,20c11.046,0 20,-8.954 20,-20c0,-0.123 -0.016,-0.242 -0.018,-0.365z"
+                                fill="#8e8e8e" />
+                              <path
+                                d="M39.385,32.558c-3.123,4.302 -8.651,4.533 -13.854,4.442h-6.781h-1.938c4.428,-1.593 7.063,-1.972 9.754,-3.4c5.068,-2.665 10.078,-8.496 11.121,-14.562c-1.93,5.836 -7.779,10.85 -13.109,12.889c-3.652,1.393 -10.248,2.745 -10.248,2.745l-0.267,-0.145c-4.49,-2.259 -4.626,-12.313 3.537,-15.559c3.574,-1.423 6.993,-0.641 10.854,-1.593c4.122,-1.012 8.89,-4.208 10.83,-8.375c2.172,6.667 4.786,17.106 0.101,23.558zM15.668,38.445c-0.282,0.35 -0.713,0.555 -1.163,0.555c-0.823,0 -1.495,-0.677 -1.495,-1.5c0,-0.823 0.677,-1.5 1.495,-1.5c0.341,0 0.677,0.118 0.941,0.336c0.64,0.519 0.74,1.469 0.222,2.109z"
+                                fill="#ffffff" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg></ng-icon></li>
+                  <li _ngcontent-ng-c4037020810 class="skills_right_list_card"><ng-icon _ngcontent-ng-c4037020810
+                      size="5.5rem" _nghost-ng-c3809212565 style="--ng-icon__size: 5.5rem;" ngh="0"><svg
+                        xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g fill="#8c8a8a" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                          stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                          font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                          style="mix-blend-mode: normal">
+                          <g transform="scale(5.12,5.12)">
+                            <path
+                              d="M20,9v5h-10v5h-5v5h-3.875c-0.47656,0.00781 -0.87891,0.34766 -0.96875,0.8125c0,0 -0.15625,0.85547 -0.15625,1.9375c0,0.6875 0.07031,1.43359 0.1875,2.1875c-0.05859,0.01563 -0.13672,0.05078 -0.1875,0.0625h0.1875c0.28906,1.80859 0.95313,3.73438 2.0625,5.5625c0.00391,0.00781 -0.00391,0.02344 0,0.03125c0.00781,0.01953 0.01953,0.04297 0.03125,0.0625c0.05078,0.23828 0.18359,0.44922 0.375,0.59375c0.01953,0.01172 0.04297,0.02344 0.0625,0.03125c0.30859,0.44531 0.63281,0.89063 1,1.3125c2.67578,3.08594 7.01953,5.40625 13.28125,5.40625c10.22266,0 18.86719,-4.35547 23.75,-13h9.09375c-1.08594,-0.27344 -3.41797,-0.64062 -3.03125,-2.0625c-1.29297,1.49609 -3.75391,1.68359 -5.65625,1.34375c0.36328,-0.6875 0.71484,-1.38672 1.03125,-2.125c2.89063,-0.07422 4.96484,-1.00391 6.125,-2.125c1.26953,-1.22656 1.65625,-2.59375 1.65625,-2.59375c0.09766,-0.38281 -0.03516,-0.78516 -0.34375,-1.03125c0,0 -2.52734,-1.84375 -6.3125,-1.21875c-1.07812,-3.53516 -3.875,-5.25 -3.875,-5.25c-0.20703,-0.12109 -0.44922,-0.16797 -0.6875,-0.125c-0.16016,0.03516 -0.3125,0.10938 -0.4375,0.21875c0,0 -0.66797,0.57031 -1.21875,1.59375c-0.55078,1.02344 -1.05859,2.58203 -0.875,4.59375c0.08594,0.94141 0.38281,1.83594 0.8125,2.6875c-0.24219,0.14844 -0.38281,0.27344 -0.78125,0.4375c-0.82812,0.34375 -2.03516,0.65625 -3.75,0.65625h-0.5v-5h-5v-10zM22,11h3v3h-3zM12,16h3v3h-3zM17,16h3v3h-3zM22,16h3v3h-3zM39.09375,16.21875c0.74219,0.55078 2.08594,1.70313 2.5625,4.21875c0.05078,0.27734 0.21484,0.51563 0.45313,0.66406c0.23828,0.14844 0.52734,0.19141 0.79688,0.11719c2.55078,-0.69922 3.92969,-0.125 4.6875,0.3125c-0.14453,0.31641 -0.12109,0.51172 -0.6875,1.0625c-0.91016,0.87891 -2.45312,1.76563 -5.34375,1.65625c-0.42187,-0.01562 -0.80859,0.23438 -0.96875,0.625c-0.39844,0.99609 -0.85937,1.91797 -1.34375,2.8125c-0.14844,-0.08594 -0.27344,-0.1875 -0.375,-0.28125c-1.33984,1.94141 -9.11328,1.19922 -9.65625,-0.3125c-1.67578,1.96875 -6.88281,1.96875 -8.5625,0c-0.54297,1.51172 -8.34766,2.25391 -9.6875,0.3125c-1.19922,1.125 -5.93359,1.81641 -7.90625,-0.46875c0.1875,0.6875 -0.29687,1.13281 -0.9375,1.4375c-0.08203,-0.57031 -0.125,-1.11328 -0.125,-1.625c0,-0.42969 0.03125,-0.46875 0.0625,-0.75h30.4375c1.96875,0 3.44531,-0.375 4.5,-0.8125c1.05469,-0.4375 1.80469,-0.96875 1.90625,-1.03125c0.24219,-0.15234 0.40625,-0.39844 0.45313,-0.67969c0.04688,-0.27734 -0.02734,-0.56641 -0.20312,-0.78906c-0.55469,-0.72266 -0.84375,-1.62891 -0.9375,-2.65625c-0.14453,-1.61328 0.23438,-2.74219 0.625,-3.46875c0.13281,-0.24609 0.14063,-0.19531 0.25,-0.34375zM7,21h3v3h-3zM12,21h3v3h-3zM17,21h3v3h-3zM22,21h3v3h-3zM27,21h3v3h-3zM2.25,29h36.25c-4.58984,7.41406 -12.21094,11 -21.5,11c-5.46875,0 -9.01562,-1.85547 -11.34375,-4.3125c4.4375,0.21094 7.875,-0.96875 7.875,-0.96875c0.55078,-0.07031 0.94531,-0.57422 0.875,-1.125c-0.07031,-0.55078 -0.57422,-0.94531 -1.125,-0.875c-0.05469,0.00781 -0.10547,0.01563 -0.15625,0.03125c-0.08594,0.01172 -0.16797,0.03125 -0.25,0.0625c0,0 -4.08984,1.39453 -8.875,0.71875c-0.89844,-1.48047 -1.46484,-3.06641 -1.75,-4.53125zM16,31c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.13672 -0.01172,-0.25781 -0.0625,-0.375c-0.07031,0.125 -0.22266,0.21875 -0.375,0.21875c-0.22656,0 -0.40625,-0.21094 -0.40625,-0.4375c0,-0.15234 0.09766,-0.27344 0.21875,-0.34375c-0.11328,-0.04297 -0.24609,-0.0625 -0.375,-0.0625z" />
+                          </g>
+                        </g>
+                      </svg></ng-icon></li>
+                  <li _ngcontent-ng-c4037020810 class="skills_right_list_card"><ng-icon _ngcontent-ng-c4037020810
+                      size="5.5rem" _nghost-ng-c3809212565 style="--ng-icon__size: 5.5rem;" ngh="0"><svg
+                        xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g fill="#8c8a8a" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                          stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                          font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                          style="mix-blend-mode: normal">
+                          <g transform="scale(5.12,5.12)">
+                            <path
+                              d="M35.19922,2.10156c-1.5,0 -2.80078,0.29688 -4,0.59766c2.10156,0.89844 3.40234,2 4.10156,2.5c1.60156,1.39844 2.5,2.80078 4.10156,5.10156c0.29688,0.5 0.79688,1.19922 1.09766,2.29688c0.30078,1 0.30078,1.80078 0.30078,2.60156c0,1.10156 -0.10156,2 -0.20312,2.89844c-0.09766,0.70313 -0.09766,1.00391 -0.19531,1.20313c0,0.10156 0,0.19922 -0.10156,0.39844c0,0.5 0,0.70313 0.10156,1.10156c0,0.39844 0.09766,0.80078 0.09766,1.5c0.10156,1.30078 0.10156,2.19922 -0.09766,3.29688v0.40234c-0.20312,0.89844 -0.40234,1.80078 -0.90234,2.59766c0.10156,0.20313 0.19922,0.30078 0.30078,0.5c0.5,-0.69922 0.89844,-1.39844 1.29688,-2.19531c1.20313,-2.20312 1.90234,-4.10156 2.40234,-5.5c0.89844,-2.60156 1.39844,-4.50391 1.69922,-5.90234c0.69922,-3 0.80078,-4.39844 0.5,-6c0,-0.5 -0.19922,-1.40234 -0.69922,-2.30078c-1.10156,-2 -2.80078,-2.89844 -4,-3.5c-0.80078,-0.39844 -2.90234,-1.5 -5.80078,-1.59766zM13.53516,2.54297c-1.15234,-0.02344 -2.55859,0.10547 -4.13672,0.85547c-0.5,0.20313 -2,0.90234 -3.19922,2.5c-0.80078,1 -1.39844,2.5 -1.69922,4.19922c-0.30078,1.5 -0.40234,3.30469 0.19922,6.70313c0.39844,2.39844 0.80078,4 1.60156,7.29688c0.10156,0.40234 0.69922,2.20313 2,6.20313l0.09766,0.19922c0.20313,0.69922 0.80078,2.19922 2.10156,3.69922c0.89844,1 1.69922,1.60156 2.40234,1.60156h0.19531c1.30078,0 2.20313,-1 3,-1.80078c0,-0.10156 1.90234,-2.39844 2.60156,-3.19922c-0.10156,-0.10156 -0.29687,-0.10156 -0.39844,-0.20312c-1.19922,-0.69922 -2.10156,-1.79687 -2.80078,-3c-1.19922,-2.19922 -1.10156,-4.39844 -0.90234,-5.5l0.10156,-1.69531c-0.39844,-2.70312 -0.29687,-5.30078 0.20313,-7.90234c0.39844,-2.19922 0.89844,-4.39844 2.69531,-6.69922c0.60156,-0.80078 1.30078,-1.5 2,-2c-1.59766,-0.69922 -3.29687,-1.10156 -5,-1.19922c-0.32422,-0.02734 -0.67969,-0.05078 -1.0625,-0.05859zM26.09766,3.39844c-0.5,0 -1,0 -1.5,0.10156c-2,0.39844 -3.89844,1.5 -5.39844,3.39844c-1.5,1.90234 -1.89844,3.69922 -2.29687,5.80078c-0.20312,0.80078 -0.20312,1.5 -0.30469,2.30078c0.60156,-0.5 1.40234,-1.10156 2.60156,-1.40234c0.69922,-0.19922 2.5,-0.79687 4,0.10156c0.5,0.30078 1.19922,0.90234 1.89844,2.60156c1.5,4.19922 0.00391,8.5 -0.19531,8.89844c-0.10156,0.39844 -0.30078,0.69922 -0.40234,0.89844c-0.19922,0.5 -0.39844,0.90234 -0.59766,1.70313c-0.10156,0.69922 -0.20312,1.30078 -0.20312,2c0.30078,0 0.60156,0.09766 0.89844,0.29688c0.5,0.5 0.60156,1.20313 0.70313,1.5c0.19922,1.60156 0.19922,3.60156 0.19922,5.60156c0,1.60156 0,3.10156 0.09766,4.10156c0.20313,2.30078 0.90234,3.89844 1.90234,4.69922c0.69922,0.60156 1.59766,0.59766 2.09766,0.69922h0.20313c1.5,0 3.89844,-1 4.79688,-2.39844c0.5,-0.80078 0.70313,-1.5 0.90234,-2.5c0.10156,-0.60156 0.09766,-0.89844 0.19922,-1.5c0,-0.30078 0.10156,-0.80078 0.10156,-1.39844c0,-0.5 0.09766,-1.10156 0.19922,-1.80469c0.10156,-1.69922 0.39844,-3.69531 0.5,-4.79687c0.10156,-1.30078 0.69922,-2.40234 1.19922,-3.10156c-0.69922,-0.10156 -1.39844,-0.69922 -1.79687,-1.69922c-0.60156,-1.10156 -0.70312,-1.40234 -0.80469,-1.90234c-0.09766,-0.39844 -0.29687,-0.89844 -1,-2.39844c-1.5,-3.39844 -1.69531,-4.39844 -1.69531,-5.19922c-0.10156,-1.10156 -0.20312,-2.59766 1,-3.59766c1.79688,-1.60156 4.09766,-1.5 5.29688,-1.10156v-0.20312c-0.19922,-0.79687 -0.59766,-1.39844 -0.89844,-1.79687c-1.5,-2.30078 -2.30078,-3.5 -3.70312,-4.69922c-0.59766,-0.5 -2.09766,-1.70312 -4.29687,-2.5c-1,-0.30078 -2.20312,-0.70312 -3.70312,-0.70312zM37.15234,15.125c-0.72656,-0.05078 -1.65234,0.07422 -2.45312,0.77734c-0.39844,0.39844 -0.39844,1.19922 -0.29687,1.89844c0,0.5 0.09766,1.19922 1.59766,4.60156c0.69922,1.59766 0.89844,2.09766 1,2.5c0.10156,0.39844 0.19922,0.59766 0.80078,1.69531c0.10156,0.20313 0.19922,0.40234 0.39844,0.60156c0.19922,-0.30078 0.30078,-0.80078 0.39844,-1.60156l0.10156,-0.29687c0.19922,-0.89844 0.10156,-1.60156 0.10156,-2.80078c0,-0.60156 -0.10156,-1 -0.10156,-1.30078c-0.10156,-0.5 -0.10156,-0.89844 -0.10156,-1.5c-0.19922,-0.30078 -0.19922,-0.39844 -0.09766,-0.60156c0,-0.19922 0.09766,-0.49609 0.19922,-1.09766c0.10156,-0.80078 0.20313,-1.5 0.20313,-2.30078c-0.20312,-0.10156 -0.30078,-0.19922 -0.5,-0.29687c0,0 -0.52734,-0.22656 -1.25,-0.27734zM21.51563,15.51953c-0.63672,-0.07422 -1.36719,0.13281 -1.81641,0.28125c-1.10156,0.30078 -1.79687,1 -2.29687,1.39844c-0.30078,0.30078 -0.60156,0.60156 -0.90234,1c0,0.69922 0.09766,1.40234 0.19922,2.10156v0.10156l-0.19922,2c-0.19922,0.89844 -0.30078,2.59766 0.69922,4.29688c0.5,1 1.20313,1.80078 2.10156,2.30078c0.60156,0.39844 1.39844,0.69922 2.29688,0.90234c0,-0.70312 0.10156,-1.50391 0.20313,-2.20312c0.19922,-1 0.39844,-1.5 0.69922,-2.10156c0.10156,-0.29687 0.19922,-0.49609 0.40234,-0.79687c0.09766,-0.30078 1.49609,-4.10156 0.19531,-7.60156c-0.29687,-0.80078 -0.59766,-1.30078 -1,-1.5c-0.17187,-0.10156 -0.375,-0.15625 -0.58203,-0.17969zM36.1875,16.08984c0.26172,-0.01562 0.51172,0.00781 0.61328,0.10938c0.30078,0.19922 -0.10156,0.69922 -0.20312,0.80078c-0.09766,0.10156 -0.29687,0.30078 -0.59766,0.40234c-0.39844,0.09766 -0.69922,-0.20312 -0.80078,-0.20312c-0.10156,-0.10156 -0.39844,-0.39844 -0.29687,-0.69922c0.09766,-0.19922 0.19922,-0.19922 0.59766,-0.30078c0.14844,-0.05078 0.42578,-0.09766 0.6875,-0.10937zM21.15625,16.91797c0.33594,-0.02344 0.61719,0.10547 0.84375,0.17969c0.30078,0.10156 0.59766,0.20313 0.59766,0.40234c0.10156,0.30078 -0.19531,0.5 -0.29687,0.59766c-0.30078,0.30078 -0.80078,0.30469 -0.80078,0.30469c-0.5,0 -0.80078,-0.30078 -1,-0.60156c-0.10156,-0.10156 -0.19922,-0.30078 -0.09766,-0.5c0.09766,-0.19922 0.29688,-0.30078 0.39844,-0.30078c0.125,-0.05078 0.24219,-0.07422 0.35547,-0.08203zM39.5,30c-0.5,0.69922 -1.19922,1.60156 -1.30078,2.80078c0,0.19922 0,0.30078 -0.10156,0.5c0.80078,0.19922 1.50391,0.19922 2.20313,0.10156c1.60156,-0.20312 2.69922,-1.00391 2.89844,-1.20312c0.69922,-0.5 1.60156,-1.5 1.39844,-1.89844c-0.09766,-0.19922 -0.39844,-0.10156 -2,0c-0.39844,0 -1.59766,0.30078 -2.39844,0.10156h-0.19922c-0.19922,-0.10156 -0.39844,-0.20312 -0.5,-0.40234zM22.09766,32c-0.19922,0.30078 -0.49609,0.5 -0.69531,0.69922c-0.80078,0.5 -1.80469,0.90234 -2.80469,1.10156c-0.89844,0.30078 -1.39844,0.30078 -1.39844,0.60156c-0.10156,0.39844 0.89844,0.89844 1.39844,1.09766c1.70313,0.69922 3.40234,0.30078 3.70313,0.19922c0.19922,-0.10156 0.69922,-0.30078 1.19922,-0.60156c0,-1.09766 -0.09766,-2.09766 -0.19922,-2.89844v-0.10156h-0.10156c-0.30078,0 -0.69922,0.00391 -1.10156,-0.09766z" />
+                          </g>
+                        </g>
+                      </svg></ng-icon></li>
+                  <li _ngcontent-ng-c4037020810 class="skills_right_list_card"><ng-icon _ngcontent-ng-c4037020810
+                      size="5.5rem" _nghost-ng-c3809212565 style="--ng-icon__size: 5.5rem;" ngh="0"><svg
+                        xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g fill="#8e8e8e" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                          stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                          font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                          style="mix-blend-mode: normal">
+                          <g transform="scale(5.12,5.12)">
+                            <path
+                              d="M45,4h-40c-0.553,0 -1,0.448 -1,1v40c0,0.552 0.447,1 1,1h40c0.553,0 1,-0.448 1,-1v-40c0,-0.552 -0.447,-1 -1,-1zM29,26.445h-5v15.555h-4v-15.555h-5v-3.445h14zM30.121,41.112v-4.158c0,0 2.271,1.712 4.996,1.712c2.725,0 2.62,-1.782 2.62,-2.026c0,-2.586 -7.721,-2.586 -7.721,-8.315c0,-7.791 11.25,-4.717 11.25,-4.717l-0.14,3.704c0,0 -1.887,-1.258 -4.018,-1.258c-2.131,0 -2.9,1.013 -2.9,2.096c0,2.795 7.791,2.516 7.791,8.141c0.001,8.664 -11.878,4.821 -11.878,4.821z" />
+                          </g>
+                        </g>
+                      </svg></ng-icon></li>
+                  <li _ngcontent-ng-c4037020810 class="skills_right_list_card"><ng-icon _ngcontent-ng-c4037020810
+                      size="5.5rem" _nghost-ng-c3809212565 style="--ng-icon__size: 5.5rem;" ngh="0"><svg
+                        xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g transform="translate(3.84,3.84) scale(0.97,0.97)">
+                          <g fill="#8e8e8e" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <g transform="scale(5.12,5.12)">
+                              <path
+                                d="M24.92969,2.00195c-0.10987,0.0005 -0.22067,0.01869 -0.32617,0.05469l-20.93164,7.28516c-0.444,0.154 -0.72206,0.59745 -0.66406,1.06445l3.30859,27.12305c0.039,0.321 0.22867,0.60381 0.51367,0.75781l17.64844,9.5918c0.148,0.081 0.31256,0.12109 0.47656,0.12109c0.165,0 0.33147,-0.04105 0.48047,-0.12305l17.73828,-9.72266c0.282,-0.155 0.47372,-0.43686 0.51172,-0.75586l3.30664,-27.12109c0.058,-0.469 -0.22288,-0.91636 -0.67188,-1.06836l-21.06641,-7.15625c-0.105,-0.035 -0.21434,-0.05128 -0.32422,-0.05078zM25,7l13,28h-4.4375l-2.78125,-5.99219h-11.5625l-2.78125,5.99219h-4.4375zM25,16.5l-3.91992,8.5h7.83984z" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg></ng-icon></li>
+                  <li _ngcontent-ng-c4037020810 class="skills_right_list_card"><ng-icon _ngcontent-ng-c4037020810
+                      size="5.5rem" _nghost-ng-c3809212565 style="--ng-icon__size: 5.5rem;" ngh="0"><svg
+                        xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="55" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g transform="translate(-24.32,-24.32) scale(1.19,1.19)">
+                          <g fill="#8c8a8a" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <g transform="scale(10.66667,10.66667)">
+                              <path
+                                d="M10.9,2.1c-4.6,0.5 -8.3,4.2 -8.8,8.7c-0.6,5 2.5,9.3 6.9,10.7v-2.3c0,0 -0.4,0.1 -0.9,0.1c-1.4,0 -2,-1.2 -2.1,-1.9c-0.1,-0.4 -0.3,-0.7 -0.6,-1c-0.3,-0.1 -0.4,-0.1 -0.4,-0.2c0,-0.2 0.3,-0.2 0.4,-0.2c0.6,0 1.1,0.7 1.3,1c0.5,0.8 1.1,1 1.4,1c0.4,0 0.7,-0.1 0.9,-0.2c0.1,-0.7 0.4,-1.4 1,-1.8c-2.3,-0.5 -4,-1.8 -4,-4c0,-1.1 0.5,-2.2 1.2,-3c-0.1,-0.2 -0.2,-0.7 -0.2,-1.4c0,-0.4 0,-1 0.3,-1.6c0,0 1.4,0 2.8,1.3c0.5,-0.2 1.2,-0.3 1.9,-0.3c0.7,0 1.4,0.1 2,0.3c1.3,-1.3 2.8,-1.3 2.8,-1.3c0.2,0.6 0.2,1.2 0.2,1.6c0,0.8 -0.1,1.2 -0.2,1.4c0.7,0.8 1.2,1.8 1.2,3c0,2.2 -1.7,3.5 -4,4c0.6,0.5 1,1.4 1,2.3v3.3c4.1,-1.3 7,-5.1 7,-9.5c0,-6 -5.1,-10.7 -11.1,-10z" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg></ng-icon></li>
+                  <li _ngcontent-ng-c4037020810 class="skills_right_list_card"><ng-icon _ngcontent-ng-c4037020810
+                      size="5.5rem" _nghost-ng-c3809212565 style="--ng-icon__size: 5.5rem;" ngh="0"><svg
+                        xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g fill="#8c8a8a" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                          stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                          font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                          style="mix-blend-mode: normal">
+                          <g transform="scale(10.66667,10.66667)">
+                            <path
+                              d="M2,2v20h20v-20zM4.75,11.375h1.25v-5.375h-1.25v-1.625h4.25v1.625h-1.25v5.375h1.25v1.625h-4.25zM11.5,19.25h-7.5v-1.25h7.5zM16,9.875c0,1.125 -0.25,3.25 -3,3.25c-1.5,0 -2.315,-0.902 -2.625,-1.271l1.154,-1.319c0.208,0.231 0.721,0.84 1.471,0.84c1.125,0 1.125,-1.125 1.125,-1.5v-5.5h1.875z" />
+                          </g>
+                        </g>
+                      </svg></ng-icon></li><!---->
+                </ul>
+              </div>
+            </div>
+          </app-skills><app-projects _ngcontent-ng-c2848842264 _nghost-ng-c4081265934 ngh="3">
+            <div _ngcontent-ng-c4081265934 id="projects" class="projects">
+              <h2 _ngcontent-ng-c4081265934 class="projects_title">Projetos</h2>
+              <ul _ngcontent-ng-c4081265934 class="projects_list">
+                <li _ngcontent-ng-c4081265934 class="projects_list_card"><a _ngcontent-ng-c4081265934
+                    href="https://vinimarcaltech.github.io/springsecurity_project/"><img _ngcontent-ng-c4081265934
+                      alt="Projetos" class="card_image" src="assets/projects/spring_security_project.png"></a><img
+                    _ngcontent-ng-c4081265934 src alt>
+                  <div _ngcontent-ng-c4081265934 class="projects_subtitle">Serviço de controle e autenticação de
+                    usuarios, com Java language, Spring Security, JWT, Angular 17, PostgreSQL </div>
+                </li>
+                <li _ngcontent-ng-c4081265934 class="projects_list_card"><a _ngcontent-ng-c4081265934 href><img
+                      _ngcontent-ng-c4081265934 alt="Projetos" class="card_image"
+                      src="assets/projects/construcao.gif"></a><img _ngcontent-ng-c4081265934 src alt>
+                  <div _ngcontent-ng-c4081265934 class="projects_subtitle"><!--ngetn--></div>
+                </li><!---->
+              </ul>
+            </div>
+          </app-projects><app-footer _ngcontent-ng-c2848842264 _nghost-ng-c566249981 ngh="4">
+            <footer _ngcontent-ng-c566249981 id="footer" class="footer">
+              <div _ngcontent-ng-c566249981 class="footer_card">
+                <div _ngcontent-ng-c566249981 class="footer_card_container"><span _ngcontent-ng-c566249981
+                    class="footer_card_container_title">Iniciar um projeto</span>
+                  <p _ngcontent-ng-c566249981 class="footer_card_container_txt">Interessado em meu trabalho? Não seja
+                    timido, entre em contato.</p><a _ngcontent-ng-c566249981
+                    href="https://api.whatsapp.com/send?phone=5561993144073&amp;text=Ol%C3%A1%2C%20Vim%20atrav%C3%A9s%20de%20seu%20portif%C3%B3lio!"
+                    target="_blank"><button _ngcontent-ng-c566249981 class="footer_card_container_button"><img
+                        _ngcontent-ng-c566249981 src="assets/icons/thumbs_up.svg" alt="Icon thumbs_up"> Vamos fazer isso
+                    </button></a>
+                </div>
+              </div>
+              <div _ngcontent-ng-c566249981 class="footer_content"><a _ngcontent-ng-c566249981 href="#"><img
+                    _ngcontent-ng-c566249981
+                    src="https://vinimarcaltech.github.io/springsecurity_project/assets/Logo.png" width="80" height="80"
+                    alt="Logo"></a>
+                <p _ngcontent-ng-c566249981 class="footer_content_txt">Criamos paginas web da maneira que você deseja,
+                  aqui tudo é possível e podemos <span _ngcontent-ng-c566249981>realizar!</span></p>
+                <ul _ngcontent-ng-c566249981 class="footer_content_social">
+                  <li _ngcontent-ng-c566249981 class="footer_content_social_icon"><a _ngcontent-ng-c566249981
+                      target="_blank" href="https://www.instagram.com/vinimarcal.tech/"><ng-icon
+                        _ngcontent-ng-c566249981 size="2.2rem" _nghost-ng-c3809212565
+                        style="--ng-icon__size: 2.2rem; color: #F38C21;" ngh="0"><svg xmlns="http://www.w3.org/2000/svg"
+                          class="ionicon" viewBox="0 0 512 512"
+                          style="width:var(--ng-icon__size, 1em);height:var(--ng-icon__size, 1em)" fill="currentColor">
+                          <path
+                            d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" />
+                          <path
+                            d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z" />
+                        </svg></ng-icon></a></li>
+                  <li _ngcontent-ng-c566249981 class="footer_content_social_icon"><a _ngcontent-ng-c566249981
+                      target="_blank" href="https://www.linkedin.com/in/vinimarcaltech/"><ng-icon
+                        _ngcontent-ng-c566249981 size="2.2rem" _nghost-ng-c3809212565
+                        style="--ng-icon__size: 2.2rem; color: #F38C21;" ngh="0"><svg xmlns="http://www.w3.org/2000/svg"
+                          class="ionicon" viewBox="0 0 512 512"
+                          style="width:var(--ng-icon__size, 1em);height:var(--ng-icon__size, 1em)" fill="currentColor">
+                          <path
+                            d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" />
+                        </svg></ng-icon></a></li>
+                  <li _ngcontent-ng-c566249981 class="footer_content_social_icon"><a _ngcontent-ng-c566249981
+                      target="_blank" href="https://github.com/ViniMarcalTech"><ng-icon _ngcontent-ng-c566249981
+                        size="2.2rem" _nghost-ng-c3809212565 style="--ng-icon__size: 2.2rem; color: #F38C21;"
+                        ngh="0"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"
+                          style="width:var(--ng-icon__size, 1em);height:var(--ng-icon__size, 1em)" fill="currentColor">
+                          <path
+                            d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" />
+                        </svg></ng-icon></a></li>
+                  <li _ngcontent-ng-c566249981 class="footer_content_social_icon"><a _ngcontent-ng-c566249981
+                      target="_blank" href="mailto:vinicius.dm1515@gmail.com"><ng-icon _ngcontent-ng-c566249981
+                        size="2.2rem" _nghost-ng-c3809212565 style="--ng-icon__size: 2.2rem; color: #F38C21;"
+                        ngh="0"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"
+                          style="width:var(--ng-icon__size, 1em);height:var(--ng-icon__size, 1em)" fill="currentColor">
+                          <rect x="48" y="96" width="416" height="320" rx="40" ry="40" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            style="stroke-width:var(--ng-icon__stroke-width, 32)" />
+                          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M112 160l144 112 144-112" style="stroke-width:var(--ng-icon__stroke-width, 32)" />
+                        </svg></ng-icon></a></li>
+                  <li _ngcontent-ng-c566249981 class="footer_content_social_icon"><a _ngcontent-ng-c566249981
+                      target="_blank"
+                      href="https://api.whatsapp.com/send?phone=5561993144073&amp;text=Ol%C3%A1%2C%20Vim%20atrav%C3%A9s%20de%20seu%20portif%C3%B3lio!"><ng-icon
+                        _ngcontent-ng-c566249981 size="2.2rem" _nghost-ng-c3809212565
+                        style="--ng-icon__size: 2.2rem; color: #F38C21;" ngh="0"><svg xmlns="http://www.w3.org/2000/svg"
+                          class="ionicon" viewBox="0 0 512 512"
+                          style="width:var(--ng-icon__size, 1em);height:var(--ng-icon__size, 1em)" fill="currentColor">
+                          <path
+                            d="M414.73 97.1A222.14 222.14 0 00256.94 32C134 32 33.92 131.58 33.87 254a220.61 220.61 0 0029.78 111L32 480l118.25-30.87a223.63 223.63 0 00106.6 27h.09c122.93 0 223-99.59 223.06-222A220.18 220.18 0 00414.73 97.1zM256.94 438.66h-.08a185.75 185.75 0 01-94.36-25.72l-6.77-4-70.17 18.32 18.73-68.09-4.41-7A183.46 183.46 0 0171.53 254c0-101.73 83.21-184.5 185.48-184.5a185 185 0 01185.33 184.64c-.04 101.74-83.21 184.52-185.4 184.52zm101.69-138.19c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54 2.78-14.4 18-17.65 21.75-6.5 4.16-12.07 1.38-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56 2.44-11.32c2.51-2.49 5.57-6.48 8.36-9.72s3.72-5.56 5.57-9.26.93-6.94-.46-9.71-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52-3.25-.16-7-.2-10.69-.2a20.53 20.53 0 00-14.86 6.94c-5.11 5.56-19.51 19-19.51 46.28s20 53.68 22.76 57.38 39.3 59.73 95.21 83.76a323.11 323.11 0 0031.78 11.68c13.35 4.22 25.5 3.63 35.1 2.2 10.71-1.59 33-13.42 37.63-26.38s4.64-24.06 3.25-26.37-5.11-3.71-10.69-6.48z"
+                            fill-rule="evenodd" />
+                        </svg></ng-icon></a></li><!---->
+                </ul>
+              </div>
+              <div _ngcontent-ng-c566249981 class="footer_copy">
+                <p _ngcontent-ng-c566249981 class="footer_copy_txt"><b _ngcontent-ng-c566249981>Muito Obrigado pela sua
+                    visita!</b></p>
+              </div>
+            </footer>
+          </app-footer></div>
+      </app-main><!----></div>
+  </app-root>
+  <script src="polyfills-RX4V3J3S.js" type="module"></script>
+  <script src="main-KWL2O5IU.js" type="module"></script>
+
+  <script id="ng-state"
+    type="application/json">{"__nghData__":[{},{"t":{"4":"t0"},"c":{"4":[{"i":"t0","r":1,"t":{"2":"t1"},"c":{"2":[]},"x":5},{"i":"t0","r":1,"t":{"2":"t1"},"c":{"2":[{"i":"t1","r":1}]}}]}},{"t":{"9":"t2"},"c":{"9":[{"i":"t2","r":1,"x":8}]}},{"t":{"5":"t3"},"c":{"5":[{"i":"t3","r":1,"x":2}]}},{"t":{"20":"t4"},"c":{"20":[{"i":"t4","r":1,"x":5}]}},{"c":{"1":[{"i":"c2848842264","r":1}]}}]}</script>
+</body>
+
+</html>
